@@ -1,3 +1,28 @@
 body {
     background-color: black;
+
 }
+
+.logostyling{
+    color: #DDA73B;
+    font-family: arial narrow;
+    font-weight: 300px;
+    display: flex;
+    margin: 10px;
+    flex-direction: right;
+    align-content: right;
+    justify-content: end;
+}
+
+.navstyling {
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    font-size: 20px;
+  
+    align-content: left;
+    align-content: space-between;
+    align-content: space-around;
+    
+   
+  }
