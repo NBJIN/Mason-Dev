@@ -134,10 +134,17 @@ body {
   }
 
 /** CSS Styling For Page 2 of Website Specifications**/
-.launch {
+.launch1 {
+  display: flex;
+  font-family: raleway;
+  font-size: 35px;
+  justify-content: center;
+  color: white;
+}
+.launch2 {
   display: flex;
   font-family: edwardian script itc;
-  font-size: 40px;
+  font-size: 35px;
   justify-content: center;
   color: white;
 
@@ -147,3 +154,50 @@ body {
   font-family: raleway;
   color: white;
 }
+
+.foot-style-social-media h2 {
+  font-family: raleway;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+}
+
+.foot-style-social-media h3 {
+  font-family: raleway;
+  font-size: 40px;
+  padding-left: 100px;
+  color: white;
+  text-align: justify;
+}
+
+.foot-style-social-media a {
+  display: flex;
+  font-family: raleway;
+  font-size: 20px;
+  padding-left: 100px;
+  color: black;
+  font-weight: 300px;
+  text-decoration-line: none;
+  justify-content: space-between;
+}
+
+
+
+#copyright {
+    font-family: raleway;
+    font-size: 40x;
+    padding-left: 100px;
+    font-size: bolder;
+    color: white;
+}
+
+.fa-brands-styling {
+    display: flex;
+    background-color: #EAC452;
+    font-weight: 200px;
+    justify-content: space-evenly;
+  }
+
+
+
