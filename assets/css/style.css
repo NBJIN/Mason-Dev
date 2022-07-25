@@ -1,25 +1,35 @@
 
-
-.grid-container {
+/**{
+  box-sizing: border-box
+}
+body {
   margin: 10px;
   display: grid;
-  grid-template-columns: 30px, 60px ;
-  grid-gap: 10px;
-  grid-template-rows: 30px auto 30px;
+  grid-template-rows: 10px 80px 10px;
+  grid-template-columns: auto auto;
   grid-template-areas: "header header";
-  grid-template-areas: "aside main";
+  grid-template-areas: "side main";
   grid-template-areas: "footer footer";
-  
-  }
+ }
+  header {
+  grid-area: header;  
+}
+ .mainflexcontainer {
+  display: flex;
+ 
+}
+ **/
+body {
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 
-header {
-    grid-area: header;
-  }
-  .headerstyling {
-    background-color: yellow;
-  }
+}
 
-  .logostyling{
+
+  .logostyling1{
     color: #EAC452;
     font-size: 28px;
     font-family: raleway;
@@ -29,61 +39,41 @@ header {
     align-content: right;
     justify-content: end;
 }
-.navstyling {
-  text-decoration: none;
-  color: white;
+
+.navstyling2 {
   font-family: raleway;
-  font-size: 20px;
-  align-content: left;
-  align-content: space-around;
-  justify-content: space-between;
-  padding: 20px;
-  
+  display: flex;
+  font-size: 30px;
+  color: white;
+
+  justify-content: start;
+  justify-content: space-evenly;
   
 }
-hover {
- color: red;
-}
+
+
+/**
+.headerstyling {
+  background-color: yellow;
+  display: flex;
+
+
   aside {
-    grid-area: aside;
+    grid-area: side;
   }
+
   .asidestyling {
     background-color: pink;
     font-family: calibri;
   }
-    
-  .asidestyling {
-    font-family: Monotype Corsiva;
-    color: white;
-    font-size: 30px;
-    display: flex;
-    height: 200px;
-    width: 200px;
-    text-decoration: center;
-    justify-content: space-around;
-    background-color: #EAC452;
-    padding: 10px;
-    margin: 0;
-  
-  }
+
   main {
     grid-area: main;
+   
   }
   .mainstyling {
     background-color: green;
-    display: flex;
-    text-align: end;
-    margin: 0;
-
-    }
-
-    .mainh2style {
-      font-family: raleway;
-      font-size: 25px;
-      font-weight: 100px;
-      justify-content: justify-content;
-    }
-
+  }
 
   footer {
     grid-area: footer;
@@ -92,10 +82,54 @@ hover {
     background-color: purple;
   } 
 
+    /**display: flex;
+    text-align: end;
+    margin: 0;**/
+
+    
+
+/**
+
+ 
+
+ 
+
+    
+
+
+  
 
 
 
+/**
 
+
+  
+  
+}
+hover {
+ color: red;
+}
+
+.asidestyling {
+  font-family: Monotype Corsiva;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  text-decoration: center;
+  justify-content: space-around;
+  background-color: #EAC452;
+  padding: 10px;
+  margin: 0;
+}
+.mainh2style {
+  font-family: raleway;
+  font-size: 25px;
+  font-weight: 100px;
+  justify-content: justify-content;
+}
   /**
  
  
