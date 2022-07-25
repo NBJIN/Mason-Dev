@@ -20,12 +20,9 @@ body {
 }
  **/
 body {
- 
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-
+ margin: 0%;
+ padding: 0%;
+ background-color: black;
 }
 
 
@@ -34,7 +31,6 @@ body {
     font-size: 28px;
     font-family: raleway;
     display: flex;
-    margin: 10px;
     flex-direction: right;
     align-content: right;
     justify-content: end;
@@ -43,15 +39,78 @@ body {
 .navstyling2 {
   font-family: raleway;
   display: flex;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bolder;
   color: white;
-
-  justify-content: start;
+   justify-content: start;
   justify-content: space-evenly;
   
 }
+.flex-display-aside-main {
+  display: flex;
+ 
+  
+
+ 
+}
+.asidestyling {
+  float: left;
+  justify-content: left;
+  margin: 20px;
+  padding-right: 200px;
+  padding-top: 5pxx;
+  justify-content: center;
+  font-family: Monotype Corsiva;
+  font-size: 35px;
+  color: white;
+}
+
+.main-styling {
+  float: right;
+  justify-content: right;
+  margin: 50px;
+ }
 
 
+ .main-styling h2 {
+    font-family: raleway;
+    font-size: 40x;
+    color: white;
+    text-align: justify;
+ 
+
+    
+ }
+
+ .main-styling  {
+  font-family: raleway;
+  font-size: 40x;
+  color: white;
+  text-align: center;
+
+
+  
+}
+
+ .main-styling > video {
+  
+   padding-left: 80px;
+ }
+
+ .footerstyling h2 {
+  font-family: raleway;
+    font-size: 40x;
+    color: blue;
+    text-align: center;
+ }
+
+
+ .footerstyling a {
+  font-family: raleway;
+    font-size: 40x;
+    
+    text-align: justify;
+ }
 /**
 .headerstyling {
   background-color: yellow;
@@ -62,10 +121,7 @@ body {
     grid-area: side;
   }
 
-  .asidestyling {
-    background-color: pink;
-    font-family: calibri;
-  }
+
 
   main {
     grid-area: main;
@@ -78,8 +134,7 @@ body {
   footer {
     grid-area: footer;
    }
-   .footerstyling {
-    background-color: purple;
+ 
   } 
 
     /**display: flex;
