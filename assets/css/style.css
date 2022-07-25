@@ -1,35 +1,15 @@
 
-/**{
-  box-sizing: border-box
-}
-body {
-  margin: 10px;
-  display: grid;
-  grid-template-rows: 10px 80px 10px;
-  grid-template-columns: auto auto;
-  grid-template-areas: "header header";
-  grid-template-areas: "side main";
-  grid-template-areas: "footer footer";
- }
-  header {
-  grid-area: header;  
-}
- .mainflexcontainer {
-  display: flex;
- 
-}
- **/
 body {
  margin: 0%;
  padding: 0%;
- background-color: green;
+ background-color: black;
  
 }
 
 
   .logostyling1{
     color: #EAC452;
-    font-size: 28px;
+    font-size: 20px;
     font-family: raleway;
     display: flex;
     flex-direction: right;
@@ -43,8 +23,8 @@ body {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-   justify-content: start;
   justify-content: space-evenly;
+   text-decoration: none;
   
 }
 .flex-display-aside-main {
@@ -111,7 +91,7 @@ body {
  }
 
 
- .footerstyling a, h3 {
+ .footerstyling h3 {
   font-family: raleway;
     font-size: 40x;
     padding-left: 100px;
@@ -121,106 +101,34 @@ body {
     text-align: justify;
  }
 
-#copyright {
-  padding-left: 100px;
-  font-size: 20px;
-  color: white;
+ .footerstyling a {
+  display: flex;
+    font-family: raleway;
+    font-size: 20px;
+    padding-left: 100px;
+    color: black;
+    font-weight: 300px;
+    text-decoration-line: none;
+    justify-content: space-between;
+
+    
+    
  }
+
+#copyright {
+     font-family: raleway;
+      font-size: 40x;
+     padding-left: 100px;
+      font-size: bolder;
+     color: white;
+ 
+ }
+ .fa-brands-styling {
+  background-color: white;
+   font-weight: 200px;
+  }
 
  .button-hover {
  color: yellow;
  }
-/**
-.headerstyling {
-  background-color: yellow;
-  display: flex;
-
-
-  aside {
-    grid-area: side;
-  }
-
-
-
-  main {
-    grid-area: main;
-   
-  }
-  .mainstyling {
-    background-color: green;
-  }
-
-  footer {
-    grid-area: footer;
-   }
- 
-  } 
-
-    /**display: flex;
-    text-align: end;
-    margin: 0;**/
-
-    
-
-/**
-
- 
-
- 
-
-    
-
-
-  
-
-
-
-/**
-
-
-  
-  
-}
-hover {
- color: red;
-}
-
-.asidestyling {
-  font-family: Monotype Corsiva;
-  color: white;
-  font-size: 30px;
-  display: flex;
-  height: 200px;
-  width: 200px;
-  text-decoration: center;
-  justify-content: space-around;
-  background-color: #EAC452;
-  padding: 10px;
-  margin: 0;
-}
-.mainh2style {
-  font-family: raleway;
-  font-size: 25px;
-  font-weight: 100px;
-  justify-content: justify-content;
-}
-  /**
- 
- 
-
-
-
-
-
-body {
-    background-color: black;
-    color: white;
-
-}
-
-
-
-
-
-  **/
 
