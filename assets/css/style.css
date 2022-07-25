@@ -20,19 +20,20 @@ body {
 .navstyling2 {
   font-family: raleway;
   display: flex;
-  font-size: 20px;
-  font-weight: bolder;
-  color: white;
+  font: size 30px;
+  
+  font-weight: 100px;
+  text-decoration-color: black;
   justify-content: space-evenly;
-   text-decoration: none;
+   
+   background-color: #EAC452;
+   justify-content: space-evenly;
+   
   
 }
 .flex-display-aside-main {
   display: flex;
- 
   
-
- 
 }
 .asidestyling {
   float: left;
@@ -48,6 +49,7 @@ body {
 }
 
 .main-styling {
+  
   float: right;
   justify-content: right;
   margin: 50px;
@@ -84,6 +86,7 @@ body {
  }
 
  .footerstyling h2 {
+
   font-family: raleway;
     font-size: 40x;
     color: white;
@@ -124,11 +127,10 @@ body {
  
  }
  .fa-brands-styling {
-  background-color: white;
+  display: flex;
+  background-color: #EAC452;
    font-weight: 200px;
+   justify-content: space-evenly;
   }
 
- .button-hover {
- color: yellow;
- }
 
