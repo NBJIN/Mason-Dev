@@ -22,7 +22,8 @@ body {
 body {
  margin: 0%;
  padding: 0%;
- background-color: black;
+ background-color: green;
+ 
 }
 
 
@@ -57,10 +58,11 @@ body {
   float: left;
   justify-content: left;
   margin: 20px;
-  padding-right: 200px;
-  padding-top: 5pxx;
+  padding-right: 10px;
+  padding-top: 300px;
+  padding-left: 100px;
   justify-content: center;
-  font-family: Monotype Corsiva;
+  font-family: edwardian script itc;
   font-size: 35px;
   color: white;
 }
@@ -82,11 +84,15 @@ body {
     
  }
 
+ .main-styling h2 {
+  text-align: center;
+ }
+
  .main-styling  {
   font-family: raleway;
   font-size: 40x;
   color: white;
-  text-align: center;
+  text-align: justify;
 
 
   
@@ -100,16 +106,29 @@ body {
  .footerstyling h2 {
   font-family: raleway;
     font-size: 40x;
-    color: blue;
+    color: white;
     text-align: center;
  }
 
 
- .footerstyling a {
+ .footerstyling a, h3 {
   font-family: raleway;
     font-size: 40x;
+    padding-left: 100px;
+    color:white;
+
     
     text-align: justify;
+ }
+
+#copyright {
+  padding-left: 100px;
+  font-size: 20px;
+  color: white;
+ }
+
+ .button-hover {
+ color: yellow;
  }
 /**
 .headerstyling {
