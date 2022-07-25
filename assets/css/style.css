@@ -133,4 +133,17 @@ body {
    justify-content: space-evenly;
   }
 
+/** CSS Styling For Page 2 of Website Specifications**/
+.launch {
+  display: flex;
+  font-family: edwardian script itc;
+  font-size: 40px;
+  justify-content: center;
+  color: white;
 
+}
+
+.house-type1 {
+  font-family: raleway;
+  color: white;
+}
