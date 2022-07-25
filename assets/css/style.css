@@ -8,6 +8,7 @@
   grid-template-areas: "header header";
   grid-template-areas: "aside main";
   grid-template-areas: "footer footer";
+  
   }
 
 header {
@@ -20,9 +21,8 @@ header {
   aside {
     grid-area: aside;
   }
-
   .asidestyling {
-    color: white;
+    background-color: pink;
     font-family: calibri;
   }
 
@@ -41,8 +41,32 @@ header {
     background-color: purple;
   } 
 
- 
- 
+  .logostyling{
+    color: #EAC452;
+    font-size: 28px;
+    font-family: raleway;
+    display: flex;
+    margin: 10px;
+    flex-direction: right;
+    align-content: right;
+    justify-content: end;
+}
+.navstyling {
+  text-decoration: none;
+  color: white;
+  font-family: raleway;
+  font-size: 20px;
+  align-content: left;
+  align-content: space-around;
+  justify-content: space-between;
+  padding: 20px;
+  
+  
+}
+
+hover {
+ color: red;
+}
     
 
 
@@ -61,28 +85,9 @@ body {
 
 }
 
-.logostyling{
-    color: #DDA73B;
-    font-family: arial narrow;
-    font-weight: 300px;
-    display: flex;
-    margin: 10px;
-    flex-direction: right;
-    align-content: right;
-    justify-content: end;
-}
 
-.navstyling {
-    text-decoration: none;
-    color: white;
-    font-family: calibri;
-    font-size: 20px;
-    align-content: left;
-    align-content: space-between;
-    align-content: space-around;
-    
-   
-  }
+
+
 
   **/
 
