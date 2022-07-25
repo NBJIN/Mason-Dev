@@ -68,7 +68,19 @@ hover {
  color: red;
 }
     
+.asidestyling {
+  font-family: Monotype Corsiva;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  text-decoration: center;
+  justify-content: space-around;
+  background-color: #EAC452;
+  padding: 10px;
 
+}
 
 
   /**
