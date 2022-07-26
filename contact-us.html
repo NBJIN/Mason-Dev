@@ -10,77 +10,127 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/4ac481fc67.js" crossorigin="anonymous"></script>
     <title>Mason Developments</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+        </style>
 </head>
-<!--
-<body>
+<body> 
     <header>
+        
+        <div class="logostyling1">
+            <h1 id="home"><i class="fa-solid fa-building-columns"></i>  Mason Developments</h1>
+            </div>
 
-         <div class="logostyling">
-            <h1 id="home"><i class="fa-solid fa-building-columns"></i>  Mason Developments</h2>
-        </div>
-
-        <div class="navstyling">
+        <div class="navstyling2" a="hover">
+    
             <a href="index.html" target="_blank" alt="navigate to home" rel="noopener">Home</a>
             <a href="specifications.html" target="_blank" alt="navigate to specifications" rel="noopener">Specifications</a>
             <a href="contact-us.html" target="_blank" alt="navigate to contact us" rel="noopener">Contact Us</a>
-            </div>
-        
-
+        </div>
     </header>
     <main>
+        <div class="contact-us">
+        <h1>Contact US</h1>
+    </div>
+        <div class="google-map">
+            <h2>Google Map Location</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13935.806653818945!2d-8.47263472019003!3d51.86961319627493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48448fea11ccb067%3A0x148f03a83a3cde7b!2sSouth%20Link%20Business%20Park%2C%20Cork!5e0!3m2!1sen!2sie!4v1658611500477!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" height="400" width="500%"></iframe>
-        
- 
-            <form action="https://formdump.masondevelopment.ie" method="POST">
-                <fieldset>
-                    <legend>Contact Us</Legend>
-                    <p>To arrange a viewing please see appointment times below.</p>
-                    <table>
-                        <tr>
-                        <th>Days</th>
-                        <th>Times</th>
-                        <th></th>
-                        </tr>    
-                        <tr>
-                        <td>Fridays</td>
-                        <td>9am -11am</td>
-                        <td><input type="checkbox" id="fridays-checkbox" name="friday"></td>
-                        </tr>
-                        <tr>
-                        <td>Saturdays</td>
-                        <td>10am - 1pm</td>
-                        <td><input type="checkbox" id="saturdays-checkbox" name="saturday"></td>
-                        </tr>
-                        <td>Sundays</td>
-                        <td>12pm - 1pm</td>
-                        <td><input type="checkbox" id="sundays-checkbox" name="sunday"></td>
-                       <label for="property_of_interest">Property of Interest</label>
-                        <select id="property" name="property_of_interest" required>
-                            <option value="detached">Detached Property</option>
-                            <option value="semi-detached">Semi-Detached Property</option>
-                    </table>
-                             
-                        </select>
-                        <br>
-               <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" required>
-               </div>
-               <div>
-                <label for="email">Email</label>
-                <input id="email" type="email" required>
+        </div>
+        <div class="form-styling">
+        <form action="https://formdump.masondevelopment.ie" method="POST">
+            <fieldset>
+                <legend>Contact Us</Legend>
+                <p>To arrange a viewing please see appointment times below.</p>
+                <table class="table-styling">
+                    <tr>
+                    <th>Days</th>
+                    <th>Times</th>
+                    <th></th>
+                    </tr>    
+                    <tr>
+                    <td>Fridays</td>
+                    <td>9am -11am</td>
+                    <td><input type="checkbox" id="fridays-checkbox" name="friday"></td>
+                    </tr>
+                    <tr>
+                    <td>Saturdays</td>
+                    <td>10am - 1pm</td>
+                    <td><input type="checkbox" id="saturdays-checkbox" name="saturday"></td>
+                    </tr>
+                    <td>Sundays</td>
+                    <td>12pm - 1pm</td>
+                    <td><input type="checkbox" id="sundays-checkbox" name="sunday"></td>
+                </table>
+                <br>
+                   <div class="property-details-style">
+                <label for="property_of_interest">Property of Interest:</label>
+                </div>
+                <div class="property-type">
+                    <select id="property" name="property_of_interest" required>
+                        <option value="detached">Detached Property</option>
+                        <option value="semi-detached">Semi-Detached Property</option>
+                    </div>
+
+
+                <br>
+                <div class="contact-information">
+                 <label for="name">Name</label>
+                 <input id="name" type="text" required>
                 </div>
                 <div>
-                <label for="message">Message</label> 
-                <textarea name="area_one" id="area_one" rows="5" cols="15"></textarea>
+                 <label for="email">Email</label>
+                 <input id="email" type="email" required>
+                 </div>
+                 <div>
+                 <label for="message">Message</label> 
+                 <textarea name="area_one" id="area_one" rows="5" cols="15"></textarea>
+                
+                 </div>
+                 <div>
+                 <label for="submit"><strong>Contact Us</strong></label>
+                 <input type="submit" value="Submit Your Details">
+                 </div>
+                </div>
+            </fieldset>
+             </form>      
+                    
+
+
+
+             <footer>
+                <div class="foot-style-social-media">
+                <h2>Find us on the following media platforms and continue the conversation.</h2>
+                    <div class="fa-brands-styling">
+                <a href="http://www.facebook.com" target="_blank" rel="noopener" aria-label="find us on facebook link opens in new page">Facebook</a>
+                <i class="fa-brands fa-facebook" ></i>
+                <a href="http://www.twitter.com" target="_blank" rel="no opener" aria-label="find us on twitter link opens in new page">Twitter</a>
+                <i class="fa-brands fa-twitter-square"></i>
+                <a href="http://www.instagram.com" target="_blank" rel="no opener" aria-label="find us on instagram link opens in new page">Instagram</a>
+                <i class="fa-brands fa-instagram-square"></i>
+            </div>
+                <div>
+                    <h3>Mason Developments Limited | 68 South Link Business Park  Cork.</h3>
+                    <h3>Tel | 021 286810</h3>
+                    <h3>Email | info@masondev.ie </h3>
+                    </div>
+                    <p id="copyright">© Mason Developments 2022</p>
+                    
+                    <a  href="#home">Return To Home</a>
                
                 </div>
-                <div>
-                <label for="submit"><strong>Contact Us</strong></label>
-                <input type="submit" value="Submit Your Details">
-                </div>
-                </fieldset>
-            </form>
+            </div>
+</footer>
+        </body>
+        </html>
+
+
+<!--
+
+   
+        
+ 
+           
+                       
 
         
             
@@ -106,5 +156,3 @@
           
 
     </footer>
-</body>
-</html>

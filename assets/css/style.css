@@ -200,4 +200,66 @@ body {
   }
 
 
+/**CSS Styling for Page 3 Contact Us**/ 
+.contact-us {
+  font-family: raleway;
+  font-size: 15px;
+  padding-top: 20px;
+  color: white;
+ 
+
+}
+
+.google-map {
+  display: flex;
+  padding-left: 20px;
+   border-style: solid;
+   width: 1200px;
+   height: 500px;
+  
+}
+
+.form-styling legend  {
+  font-family: raleway;
+  font-size: 25px;
+  color: white;
+}
+
+.form-styling p {
+  font-family: raleway;
+  font-size: 25px;
+  color: white;
+} 
+
+.table-styling {
+  table-layout: fixed;
+  font-family: raleway;
+  font-size: 20px;
+  color: white;
+}
+
+.property-details-style label {
+ font-family: raleway;
+ color: white;
+ font-size: 20px;
+}
+
+.property-type {
+  display: flex;
+  justify-content: left;
+  font-family: raleway;
+  color: white;
+  font-size: 20px;
+}
+
+/**
+.contact-information {
+  display:flex;
+  flex-direction: row;
+  font-family: raleway;
+  padding-top: 30px;
+  color: white;
+  font-size: 20px;
+}**/
+
 
