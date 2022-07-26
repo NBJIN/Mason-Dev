@@ -82,8 +82,11 @@ body {
  .main-styling > video {
   
    padding-left: 80px;
+   width: 600px;
+   height: 400px;
+   
  }
-
+ 
  .footerstyling h2 {
 
   font-family: raleway;
