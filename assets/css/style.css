@@ -1,10 +1,12 @@
-/**defines the background color for each page**/
+
 body {
  margin: 0%;
  padding: 0%;
  background-color: black;
- }
-/**defines the styling applied to the logo item for each page**/
+ 
+}
+
+
   .logostyling1{
     color: #EAC452;
     font-size: 20px;
@@ -14,22 +16,24 @@ body {
     align-content: right;
     justify-content: end;
 }
-/**defines the styling applied to the navigational items for each page**/
+
 .navstyling2 {
   font-family: raleway;
   display: flex;
   font: size 30px;
+  
   font-weight: 100px;
   text-decoration-color: black;
   justify-content: space-evenly;
-  background-color: #EAC452;
-  justify-content: space-evenly;  
+   
+   background-color: #EAC452;
+   justify-content: space-evenly;
+   
+  
 }
-/**aside item to display in flex format**/
 .flex-display-aside-main {
   display: flex;
- /**defines the styling applied to the aside section which is
- the name of the housing development**/ 
+  
 }
 .asidestyling {
   float: left;
@@ -43,75 +47,93 @@ body {
   font-size: 35px;
   color: white;
 }
-/**defines the styling applied to the main section for each page**/
+
 .main-styling {
+  
   float: right;
   justify-content: right;
   margin: 50px;
  }
-/**defines the styling applied to the h2 heading in the
-main section of the page**/
+
+
  .main-styling h2 {
     font-family: raleway;
     font-size: 40x;
     color: white;
-    text-align: center;   
+    text-align: justify;
+ 
+
+    
  }
-/**defines the styling applied to the main section of the page**/
+
+ .main-styling h2 {
+  text-align: center;
+ }
+
  .main-styling  {
   font-family: raleway;
   font-size: 40x;
   color: white;
   text-align: justify;
- }
-/**defines the styling applied to the video element**/
+
+
+  
+}
+
  .main-styling > video {
-     padding-left: 80px;
+  
+   padding-left: 80px;
  }
-/**defines the styling applied to the h2 heading in the footer section**/
+
  .footerstyling h2 {
-    font-family: raleway;
+
+  font-family: raleway;
     font-size: 40x;
     color: white;
     text-align: center;
  }
-/**defines the styling applied to the h3 heading in the footer section**/
+
+
  .footerstyling h3 {
-    font-family: raleway;
+  font-family: raleway;
     font-size: 40x;
     padding-left: 100px;
-    color:white;  
+    color:white;
+
+    
     text-align: justify;
-   }
-/**defines the styling applied to the a elements in the footer section**/
+ }
+
  .footerstyling a {
-    display: flex;
+  display: flex;
     font-family: raleway;
     font-size: 20px;
     padding-left: 100px;
     color: black;
     font-weight: 300px;
     text-decoration-line: none;
-    justify-content: space-between;  
-     }
-/**defines the styling applied to the copyright information
- in the footer section**/
+    justify-content: space-between;
+
+    
+    
+ }
+
 #copyright {
      font-family: raleway;
-     font-size: 40x;
+      font-size: 40x;
      padding-left: 100px;
-     font-size: bolder;
+      font-size: bolder;
      color: white;
-    }
- /**defines the styling applied to the social media icons
- in the footer section**/
+ 
+ }
  .fa-brands-styling {
-    display: flex;
-    background-color: #EAC452;
-    font-weight: 200px;
-    justify-content: space-evenly;
+  display: flex;
+  background-color: #EAC452;
+   font-weight: 200px;
+   justify-content: space-evenly;
   }
-/** defines styling For h2 in the main section of page 2**/
+
+/** CSS Styling For Page 2 of Website Specifications**/
 .launch1 {
   display: flex;
   font-family: raleway;
@@ -119,47 +141,47 @@ main section of the page**/
   justify-content: center;
   color: white;
 }
-/** defines tyling For h2 in the main section of page 2**/
 .launch2 {
   display: flex;
   font-family: edwardian script itc;
   font-size: 35px;
   justify-content: center;
   color: white;
+
 }
-/**defines styling For h2  which contains text for house type 1**/
+
 .house-type1 {
-    font-family: raleway;
+  
+  font-family: raleway;
   color: white;
 }
-
-/**.slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6 {
-  
+/**
+.slide-1, .slide-2, .slide-3, .slide-4 {
+  display:flex;
   position: absolute;
-
+  width: 200%;
+  height: 100px;
 }
-
-
   
 
 
-  @keyframes  {
-    from { background-image: .slide-1}
-    to { background-image: .slide-2}
-    to { background-image: .slide-3}
-   
+  @keyframes fadebackground  {
+    from { background-image: image-set (workspace/Mason-Dev/assets/images/detbath.jpg)}
+    to { background-image: image (workspace/Mason-Dev/assets/images/detbed2 det.jpg)}
+     
     }
-    **/
+    
+**/
 
 
-   /**defines styling For h2 heading in footer**/
 .foot-style-social-media h2 {
   font-family: raleway;
   font-size: 40px;
   color: white;
   text-align: center;
+
 }
-  /**defines styling For h3 heading in footer**/
+
 .foot-style-social-media h3 {
   font-family: raleway;
   font-size: 40px;
@@ -167,7 +189,7 @@ main section of the page**/
   color: white;
   text-align: justify;
 }
-/** defines Styling For a element in footer**/
+
 .foot-style-social-media a {
   display: flex;
   font-family: raleway;
@@ -178,7 +200,9 @@ main section of the page**/
   text-decoration-line: none;
   justify-content: space-between;
 }
-/** Defines Styling for copyright information in footer**/
+
+
+
 #copyright {
     font-family: raleway;
     font-size: 40x;
@@ -186,54 +210,60 @@ main section of the page**/
     font-size: bolder;
     color: white;
 }
-/** CSS Styling For social media items in footer**/
+
 .fa-brands-styling {
     display: flex;
     background-color: #EAC452;
     font-weight: 200px;
     justify-content: space-evenly;
   }
-/**Defines Styling for Page 3 Contact Us heading**/ 
+
+
+
+/**CSS Styling for Page 3 Contact Us**/ 
 .contact-us {
   font-family: raleway;
   font-size: 15px;
   padding-top: 20px;
   color: white;
- }
- /**defines styling For google map in main section of page 3**/
+ 
+
+}
+
 .google-map {
   display: flex;
   padding-left: 20px;
    border-style: solid;
    width: 1200px;
-   height: 500px; 
+   height: 500px;
+  
 }
- /**defines styling For contact us section in page3**/
+
 .form-styling legend  {
   font-family: raleway;
   font-size: 25px;
   color: white;
 }
- /**defines styling For p element in contact us section in page3**/
+
 .form-styling p {
   font-family: raleway;
   font-size: 25px;
   color: white;
 } 
- /**styling of appointment times in page3**/
+
 .table-styling {
   table-layout: fixed;
   font-family: raleway;
   font-size: 20px;
   color: white;
 }
- /**defines styling For contact us section in page3**/
+
 .property-details-style label {
  font-family: raleway;
  color: white;
  font-size: 20px;
 }
- /**defines styling For the property type in main  section in page3**/
+
 .property-type {
   display: flex;
   justify-content: left;
