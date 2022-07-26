@@ -151,9 +151,31 @@ body {
 }
 
 .house-type1 {
+  
   font-family: raleway;
   color: white;
 }
+
+.slide-1, .slide-2, .slide-3, .slide-4, .slide-5, .slide-6 {
+  
+  position: absolute;
+
+}
+
+
+  
+
+
+  @keyframes  {
+    from { background-image: .slide-1}
+    to { background-image: .slide-2}
+    to { background-image: .slide-3}
+
+     
+    }
+    
+
+
 
 .foot-style-social-media h2 {
   font-family: raleway;
@@ -198,6 +220,7 @@ body {
     font-weight: 200px;
     justify-content: space-evenly;
   }
+
 
 
 /**CSS Styling for Page 3 Contact Us**/ 
