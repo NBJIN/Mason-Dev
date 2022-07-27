@@ -80,11 +80,10 @@ body {
 }
 
  .main-styling > video {
-  
    padding-left: 80px;
    width: 600px;
    height: 400px;
-   
+
  }
  
  .footerstyling h2 {
@@ -157,6 +156,83 @@ body {
   font-family: raleway;
   color: white;
 }
+
+.container-animation {
+
+  position: relative;
+  animation-duration: 2s;
+  animation-name: slide;
+  position: center;
+
+ 
+}
+
+
+@keyframes slide-1 {
+  from {margin-left: 100%;
+  width: 500px;
+}
+to {
+  margin-left: 0%;
+  width: 300px;
+}
+}
+/**
+@keyframes slide-2 {
+  from {margin-left: 100%;
+  width: 500px;
+}
+
+to {
+  margin-left: 0%;
+  width: 300px;
+}
+}
+/**
+@keyframes slide-3 {
+  from {margin-left: 100%;
+  width: 500px;
+}
+
+to {
+  margin-left: 0%;
+  width: 300px;
+}
+}
+
+@keyframes slide-4 {
+  from {margin-left: 100%;
+  width: 500px;
+}
+
+to {
+  margin-left: 0%;
+  width: 300px;
+}
+}
+
+@keyframes slide-5 {
+  from {margin-left: 100%;
+  width: 500px;
+}
+
+to {
+  margin-left: 0%;
+  width: 300px;
+}
+}
+
+@keyframes slide-6 {
+  from {margin-left: 100%;
+  width: 500px;
+}
+
+to {
+  margin-left: 0%;
+  width: 300px;
+}
+}
+
 /**
 .slide-1, .slide-2, .slide-3, .slide-4 {
   display:flex;
@@ -167,12 +243,7 @@ body {
   
 
 
-  @keyframes fadebackground  {
-    from { background-image: image-set (workspace/Mason-Dev/assets/images/detbath.jpg)}
-    to { background-image: image (workspace/Mason-Dev/assets/images/detbed2 det.jpg)}
-     
-    }
-    
+
 **/
 
 
