@@ -22,13 +22,12 @@ body {
   font-family: raleway;
   font-size: 20px;
   color: black;
-   display: flex;
+  display: flex;
   justify-content: space-evenly;
-  text-decoration-thickness: none;
+  text-decoration: underline none;
 
     
 }
-
 
 .flex-display-aside-main {
   display: flex;
