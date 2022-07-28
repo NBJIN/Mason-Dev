@@ -20,14 +20,31 @@ body {
   background-color: #EAC452;
   padding: 20px;
   font-family: raleway;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   display: flex;
   justify-content: space-evenly;
-  text-decoration-line: none;
-
-    
+      
 }
+/**Styling to remove the underline from nav buttons - this styling was applied to .navstyling2 but would not work**/ 
+.underline {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  }
+
+.home {
+  font-family: raleway;
+  font-size: 15px;
+  padding-top: 20px;
+  color: white;
+ 
+}
+/**
+.hover {
+  background:darkolivegreen;
+}
+**/
 
 .flex-display-aside-main {
   display: flex;
@@ -119,9 +136,14 @@ body {
     font-weight: 300;
     text-decoration-line: none;
     justify-content: space-between;
-
+ 
     
-    
+ }
+ .footerstyling i {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 20;
  }
 
 #copyright {
@@ -141,6 +163,15 @@ body {
   }
 
 /** CSS Styling For Page 2 of Website Specifications**/
+
+.specifications {
+  font-family: raleway;
+  font-size: 15px;
+  padding-top: 20px;
+  color: white;
+ 
+}
+
 .launch1 {
   display: flex;
   font-family: raleway;
