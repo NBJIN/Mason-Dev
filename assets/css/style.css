@@ -70,7 +70,7 @@ body {
 
  .main-styling  {
   font-family: raleway;
-  font-size: 40x;
+  font-size: 40px;
   color: white;
   text-align: justify;
 
@@ -86,7 +86,7 @@ body {
    box-sizing: border-box;
    border-color: #EAC452;
    border-style: solid;
-   overflow: none;
+   overflow: auto;
    align-items: center;
 
  }
@@ -94,7 +94,7 @@ body {
  .footerstyling h2 {
 
   font-family: raleway;
-    font-size: 40x;
+    font-size: 40px;
     color: white;
     text-align: center;
  }
