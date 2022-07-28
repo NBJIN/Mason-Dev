@@ -272,7 +272,7 @@ to {
   font-size: 20px;
   padding-left: 100px;
   color: black;
-  font-weight: 300px;
+  font-weight: 300;
   text-decoration-line: none;
   justify-content: space-between;
 }
@@ -281,7 +281,7 @@ to {
 
 #copyright {
     font-family: raleway;
-    font-size: 40x;
+    font-size: 40px;
     padding-left: 100px;
     font-size: bolder;
     color: white;
