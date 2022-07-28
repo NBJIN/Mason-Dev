@@ -11,8 +11,8 @@ body {
     font-size: 20px;
     font-family: raleway;
     display: flex;
-    flex-direction: right;
-    align-content: right;
+    flex-direction: row;
+    align-content: flex-end;
     justify-content: end;
 }
 
@@ -24,7 +24,7 @@ body {
   color: black;
   display: flex;
   justify-content: space-evenly;
-  text-decoration: underline none;
+  text-decoration-line: none;
 
     
 }
@@ -56,7 +56,7 @@ body {
 
  .main-styling h2 {
     font-family: raleway;
-    font-size: 40x;
+    font-size: 40px;
     color: white;
     text-align: justify;
  
