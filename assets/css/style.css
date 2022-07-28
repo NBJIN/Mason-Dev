@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
 
 body {
- margin: 0%;
- padding: 0%;
- background-color: black;
+ 
+  background-color: black;
+
  }
 
 
@@ -14,11 +19,14 @@ body {
     flex-direction: row;
     align-content: flex-end;
     justify-content: end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 20px;
 }
 
 .navstyling2 {
   background-color: #EAC452;
-  padding: 20px;
+  padding: 15px;
   font-family: raleway;
   font-size: 25px;
   color: black;
@@ -40,11 +48,11 @@ body {
   color: white;
  
 }
-/**
-.hover {
-  background:darkolivegreen;
+
+.hover
+{color:dimgray;
 }
-**/
+
 
 .flex-display-aside-main {
   display: flex;
@@ -87,7 +95,7 @@ body {
 
  .main-styling  {
   font-family: raleway;
-  font-size: 40px;
+  font-size: 25px;
   color: white;
   text-align: justify;
 
@@ -395,4 +403,43 @@ to {
   font-size: 20px;
 }
 
+/**media queires max width of 1200
+@media screen and (max-width: 1200px) {
+  width: 100%;
+  
+}/**media query max widht 1024px**/
 
+  /**media queries max width 768px**/
+@media screen and (max-width: 800px) {
+  .navstyling2 {
+    display: flex;
+  
+   
+  }
+  }
+
+
+
+ /**media queries max with 480px**/
+ @media screen and (max-width: 667px) {
+
+ .logostyling1 {
+  font-size: 12px;
+  float: left;
+ }
+  
+  .navstyling2 {
+   font-size: 15px;
+   float: left;
+ 
+   display: flex;
+   
+  
+
+
+   
+  }
+
+  }
+
+ 
