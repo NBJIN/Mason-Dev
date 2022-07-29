@@ -409,37 +409,76 @@ to {
   
 }/**media query max widht 1024px**/
 
-  /**media queries max width 768px**/
+  /**media queries max width 768px
 @media screen and (max-width: 800px) {
   .navstyling2 {
     display: flex;
-  
    
   }
   }
-
+**/
 
 
  /**media queries max with 480px**/
  @media screen and (max-width: 667px) {
 
+ 
  .logostyling1 {
   font-size: 12px;
   float: left;
  }
-  
-  .navstyling2 {
-   font-size: 15px;
-   float: left;
- 
-   display: flex;
-   
-  
+    .navstyling2 {
+       float: left;
+       font-size: 12px;
+       padding: 20px;
+       display: grid;
+       float: left;
+     }
+     .home {
+      display: none;
+     }
+     .asidestyling {
+      float: left;
+      justify-content: left-baseline;
+      padding-left: 2px;
+      padding-right: none;
+      padding-top: 10px;
+     column-count: 2;
+      
+      font-family: raleway;
+      margin: 0;
 
-
-   
+     }
+     .main-styling {
+     float: left;
+     }
+    }
+/*
+  .asidestyling {
+  float: left;
+  justify-content: left;
+  margin: 20px;
+  padding-right: 10px;
+  padding-top: 300px;
+  padding-left: 100px;
+  justify-content: center;
+  font-family: edwardian script itc;
+  font-size: 35px;
+  color: white;
   }
 
+  .asidestyling {
+    font-size: adjust;
+ 
+    margin-left: 1;
+    text-align: left;
+   display: grid;
+   video:
+
   }
 
- 
+  .main-styling{
+    font-size: 12px;
+
+  }
+**/
