@@ -1,3 +1,5 @@
+My full readme file is in a pdf document
+
 # Masons Development
 
 ## Introduction
@@ -8,7 +10,7 @@ Table of Content
 project goals
 -The website should give details to the user that they require in viewing a housing develpment
 -the general information about the area will give user details on loaction.
-- details given about the house types and it prsents an idea of the internal finishes on these properites. 
+- details given about the house types and it presents an idea of the internal finishes on these properites. 
 -allows the user to make contact with the company threw the form on page 3 or the contact details provided. 
 
 User Stories
