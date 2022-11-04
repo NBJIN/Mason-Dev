@@ -3,14 +3,14 @@
   padding: 0;
 
 }
-
+/**
 body {
  
   background-color: black;
 
  }
 
-
+**/
   .logostyling1{
     color: #EAC452;
     font-size: 20px;
@@ -167,7 +167,7 @@ body {
     background-color: #EAC452;
     font-weight: 200;
     justify-content: space-evenly;
-     font-size: 20px;
+    font-size: 20px;
   }
 
 /** CSS Styling For Page 2 of Website Specifications**/
