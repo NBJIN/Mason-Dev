@@ -1,16 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
 
-}
-/**
-body {
- 
-  background-color: black;
 
- }
 
-**/
   .logostyling1{
     color: #EAC452;
     font-size: 20px;
@@ -24,6 +14,7 @@ body {
     padding-right: 20px;
 }
 
+
 .navstyling2 {
   background-color: #EAC452;
   padding: 15px;
@@ -34,6 +25,9 @@ body {
   justify-content: space-evenly;
       
 }
+
+
+
 /**Styling to remove the underline from nav buttons - this styling was applied to .navstyling2 but would not work**/ 
 .underline {
   text-decoration: none;
@@ -151,7 +145,7 @@ body {
   font-size: 40px;
   display: flex;
   justify-content: space-evenly;
-  padding-right: 20;
+  padding-right: 20px;
  }
 
 #copyright {
@@ -346,20 +340,15 @@ to {
 
 }
 
-.google-map {
-  display: flex;
-  padding-left: 20px;
-   border-style: solid;
-   width: 1200px;
-   height: 500px;
-  
-}
-
 .form-styling legend  {
   font-family: raleway;
   font-size: 25px;
   color: white;
 }
+
+
+
+
 
 .form-styling p {
   font-family: raleway;
@@ -372,7 +361,9 @@ to {
   font-family: raleway;
   font-size: 20px;
   color: white;
+ 
 }
+
 /**
 .tr {
   display: grid;
@@ -404,6 +395,15 @@ to {
   font-size: 12px;
 
 }
+.google-map {
+  display: flex;
+  padding-left: 20px;
+   border-style: solid;
+   width: 1200px;
+   height: 500px;
+  
+}
+
 .contact-information {
   display:flex;
   flex-direction: row;
@@ -449,9 +449,9 @@ to {
      }
      .asidestyling {
       float: left;
-      justify-content: left-baseline;
+      justify-content: left;
       padding-left: 2px;
-      padding-right: none;
+      padding-right: 0;
       padding-top: 10px;
      column-count: 2;
       
