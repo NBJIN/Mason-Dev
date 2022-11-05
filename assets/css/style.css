@@ -336,8 +336,6 @@ to {
   font-size: 15px;
   padding-top: 20px;
   color: white;
- 
-
 }
 
 .form-styling legend  {
@@ -345,10 +343,6 @@ to {
   font-size: 25px;
   color: white;
 }
-
-
-
-
 
 .form-styling p {
   font-family: raleway;
@@ -375,7 +369,7 @@ to {
   padding: 5px;
 }
 **/
-.property-details-style label {
+.property-details-style {
  font-family: raleway;
  color: white;
  font-size: 20px;
@@ -392,7 +386,7 @@ to {
 #name {
   display: flex;
   color: white;
-  font-size: 12px;
+  size: 20px;
 
 }
 .google-map {
@@ -411,6 +405,7 @@ to {
   padding-top: 30px;
   color: white;
   font-size: 20px;
+
 }
 
 /**media queires max width of 1200
