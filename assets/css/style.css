@@ -1,79 +1,94 @@
-{
-  margin: 0;
-  padding: 0;
+*{
+  margin: 1px;
+  padding: 1px;
+  overflow: visible;
+
 }
 
 body {
-   background-color: black;
+   background-color: Black;
+ 
  }
 
+/** Styling of logo **/
   .logostyling1{
     color: #EAC452;
-    font-size: 20px;
+    size: 30px;
+    font-weight: bold;
     font-family: raleway;
     display: flex;
     flex-direction: row;
     align-content: flex-end;
     justify-content: end;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
-}
+    padding-left: 20px;
+     }
 
+/**Styling for Navigational Items and Background **/
 .navstyling2 {
   background-color: #EAC452;
-  padding: 15px;
+  padding-top: 1px;
+  padding: 20px;
   font-family: raleway;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   display: flex;
+  width: 100%;
+  font-weight: bold;
   justify-content: space-evenly;
-  }
+}
 
-/**Styling to remove the underline from nav buttons - this styling was applied to .navstyling2 but would not work**/ 
+/**Styling to remove the underline from Navigational items **/
 .underline {
   text-decoration: none;
   color: black;
   font-weight: bolder;
   }
 
+/**Add hover to navigational items **/
+.hover {
+  color: dimgray;
+}
+
+ /**Style Home word under navigational bar **/ 
 .home {
   font-family: raleway;
-  font-size: 15px;
+  font-size: 10px;
   padding-top: 20px;
+  padding-left: 30px;
   color: white;
  }
 
-.hover
-{color:dimgray;
-}
-
+ /**Positioning of side text **/
 .flex-display-aside-main {
   display: flex;
-  
-}
+ }
+
+ /**Styling For side text **/
 .asidestyling {
   float: left;
   justify-content: left;
   margin: 20px;
-  padding-right: 10px;
-  padding-top: 300px;
-  padding-left: 100px;
+  padding-right: 20px;
+  padding-top: 150px;
+  padding-left: 40px;
   justify-content: center;
   font-family: edwardian script itc;
   font-size: 35px;
   color: white;
 }
-
+/**Style heading over main picture**/
 .main-styling {
-   float: right;
+  float: right;
   justify-content: right;
-  margin: 50px;
+  margin: 30px;
  }
 
  .main-styling h2 {
     font-family: raleway;
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     text-align: justify;
   }
@@ -84,39 +99,39 @@ body {
 
  .main-styling  {
   font-family: raleway;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   text-align: justify;
 }
 
+/**Video Style**/
  .main-styling > video {
-    width: 600px;
-   height: 400px;
-   justify-content: center;
-   box-sizing: border-box;
-   border-color: #EAC452;
-   border-style: solid;
-   overflow: auto;
-   align-items: center;
- }
- 
- .footerstyling h2 {
-  font-family: raleway;
-    font-size: 40px;
-    color: white;
-    text-align: center;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  box-sizing: border-box;
+  border-color: #EAC452;
+  border-style: solid;
+  overflow: auto;
+  align-items: center;
  }
 
+ /**Style heading underneath main paragraph**/
+ .footerstyling h2 {
+    font-family: raleway;
+    color: white;
+    text-align: center;
+     }
+
  .footerstyling h3 {
-  font-family: raleway;
-    font-size: 40px;
+    font-family: raleway;
     padding-left: 100px;
     color:white;
     text-align: justify;
  }
 
  .footerstyling a {
-  display: flex;
+    display: flex;
     font-family: raleway;
     font-size: 20px;
     padding-left: 100px;
@@ -125,32 +140,45 @@ body {
     text-decoration-line: none;
     justify-content: space-between;
   }
-
+/**
  .footerstyling i {
   font-size: 40px;
   display: flex;
   justify-content: space-evenly;
   padding-right: 20px;
  }
-
+/**Style copyright**/
 #copyright {
      font-family: raleway;
-      font-size: 40px;
+      font-size: 20px;
      padding-left: 100px;
-      font-size: medium;
+      font-weight: bold;
      color: white;
   }
-
+  
+/**Nav bar containing social meidal icons**/
  .fa-brands-styling {
     display: flex;
     background-color: #EAC452;
-    font-weight: 200;
     justify-content: space-evenly;
-    font-size: 20px;
+    padding: 20px;
   }
 
-/** CSS Styling For Page 2 of Website Specifications**/
+#return-home {
+  color: black;
+  background-color: #EAC452;
+  font: raleway;
+  padding: 10px;
+  font-weight: bold;
+}
 
+
+
+
+
+
+/** CSS Styling For Page 2 of Website Specifications**/
+/**
 .specifications {
   font-family: raleway;
   font-size: 15px;
@@ -195,76 +223,6 @@ to {
   width: 300px;
 }
 }
-
-/**
-@keyframes slide-2 {
-  from {margin-left: 100%;
-  width: 500px;
-}
-
-to {
-  margin-left: 0%;
-  width: 300px;
-}
-}
-/**
-@keyframes slide-3 {
-  from {margin-left: 100%;
-  width: 500px;
-}
-
-to {
-  margin-left: 0%;
-  width: 300px;
-}
-}
-
-@keyframes slide-4 {
-  from {margin-left: 100%;
-  width: 500px;
-}
-
-to {
-  margin-left: 0%;
-  width: 300px;
-}
-
-@keyframes slide-5 {
-  from {margin-left: 100%;
-  width: 500px;
-}
-
-to {
-  margin-left: 0%;
-  width: 300px;
-}
-}
-
-@keyframes slide-6 {
-  from {margin-left: 100%;
-  width: 500px;
-}
-
-to {
-  margin-left: 0%;
-  width: 300px;
-}
-}
-
-/**
-.slide-1, .slide-2, .slide-3, .slide-4 {
-  display:flex;
-  position: absolute;
-  width: 200%;
-  height: 100px;
-}
-  
-
-
-
-**/
-
-
 .foot-style-social-media h2 {
   font-family: raleway;
   font-size: 40px;
@@ -308,6 +266,7 @@ to {
   }
 
 /**CSS Styling for Page 3 Contact Us**/ 
+/**
 .contact-us {
   font-family: raleway;
   font-size: 15px;
@@ -345,7 +304,7 @@ to {
   padding: 5px;
 }
 **/
-
+/**
 .property-details-style {
  font-family: raleway;
  color: white;
@@ -415,56 +374,3 @@ to {
      float: left;
      }
     
-/*
-  .asidestyling {
-  float: left;
-  justify-content: left;
-  margin: 20px;
-  padding-right: 10px;
-  padding-top: 300px;
-  padding-left: 100px;
-  justify-content: center;
-  font-family: edwardian script itc;
-  font-size: 35px;
-  color: white;
-  }
-
-  .asidestyling {
-    font-size: adjust;
- 
-    margin-left: 1;
-    text-align: left;
-   display: grid;
-   video:
-
-  }
-
-  .main-styling{
-    font-size: 12px;
-
-  }
-**/
-
-/**media queires max width of 1200
-@media screen and (max-width: 1200px) {
-  width: 100%;
-  
-}/**media query max widht 1024px**/
-
-  /**media queries max width 768px
-@media screen and (max-width: 800px) {
-  .navstyling2 {
-    display: flex;
-   
-  }
-  }
-**/
-
-
- /**media queries max with 480px
- @media only screen and (max-width: 400px)  {
-  body {background-color: green;
-        font-size: 5px;
-  }
-}
-**/
