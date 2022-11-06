@@ -1,5 +1,11 @@
+{
+  margin: 0;
+  padding: 0;
+}
 
-
+body {
+   background-color: black;
+ }
 
   .logostyling1{
     color: #EAC452;
@@ -14,7 +20,6 @@
     padding-right: 20px;
 }
 
-
 .navstyling2 {
   background-color: #EAC452;
   padding: 15px;
@@ -23,10 +28,7 @@
   color: black;
   display: flex;
   justify-content: space-evenly;
-      
-}
-
-
+  }
 
 /**Styling to remove the underline from nav buttons - this styling was applied to .navstyling2 but would not work**/ 
 .underline {
@@ -40,13 +42,11 @@
   font-size: 15px;
   padding-top: 20px;
   color: white;
- 
-}
+ }
 
 .hover
 {color:dimgray;
 }
-
 
 .flex-display-aside-main {
   display: flex;
@@ -66,22 +66,17 @@
 }
 
 .main-styling {
-  
-  float: right;
+   float: right;
   justify-content: right;
   margin: 50px;
  }
-
 
  .main-styling h2 {
     font-family: raleway;
     font-size: 40px;
     color: white;
     text-align: justify;
- 
-
-    
- }
+  }
 
  .main-styling h2 {
   text-align: center;
@@ -92,14 +87,10 @@
   font-size: 25px;
   color: white;
   text-align: justify;
-
-
-  
 }
 
  .main-styling > video {
- 
-   width: 600px;
+    width: 600px;
    height: 400px;
    justify-content: center;
    box-sizing: border-box;
@@ -107,25 +98,20 @@
    border-style: solid;
    overflow: auto;
    align-items: center;
-
  }
  
  .footerstyling h2 {
-
   font-family: raleway;
     font-size: 40px;
     color: white;
     text-align: center;
  }
 
-
  .footerstyling h3 {
   font-family: raleway;
     font-size: 40px;
     padding-left: 100px;
     color:white;
-
-    
     text-align: justify;
  }
 
@@ -138,9 +124,8 @@
     font-weight: 300;
     text-decoration-line: none;
     justify-content: space-between;
- 
-    
- }
+  }
+
  .footerstyling i {
   font-size: 40px;
   display: flex;
@@ -154,8 +139,8 @@
      padding-left: 100px;
       font-size: medium;
      color: white;
- 
- }
+  }
+
  .fa-brands-styling {
     display: flex;
     background-color: #EAC452;
@@ -171,8 +156,7 @@
   font-size: 15px;
   padding-top: 20px;
   color: white;
- 
-}
+ }
 
 .launch1 {
   display: flex;
@@ -181,17 +165,16 @@
   justify-content: center;
   color: white;
 }
+
 .launch2 {
   display: flex;
   font-family: edwardian script itc;
   font-size: 35px;
   justify-content: center;
   color: white;
-
 }
 
 .house-type1 {
-  
   font-family: raleway;
   color: white;
 }
@@ -203,7 +186,6 @@
   
 }
 
-
 @keyframes slide-1 {
   from {margin-left: 100%;
   width: 500px;
@@ -213,6 +195,7 @@ to {
   width: 300px;
 }
 }
+
 /**
 @keyframes slide-2 {
   from {margin-left: 100%;
@@ -244,7 +227,6 @@ to {
 to {
   margin-left: 0%;
   width: 300px;
-}
 }
 
 @keyframes slide-5 {
@@ -288,7 +270,6 @@ to {
   font-size: 40px;
   color: white;
   text-align: center;
-
 }
 
 .foot-style-social-media h3 {
@@ -310,8 +291,6 @@ to {
   justify-content: space-between;
 }
 
-
-
 #copyright {
     font-family: raleway;
     font-size: 40px;
@@ -327,8 +306,6 @@ to {
     font-weight: 200;
     justify-content: space-evenly;
   }
-
-
 
 /**CSS Styling for Page 3 Contact Us**/ 
 .contact-us {
@@ -355,8 +332,7 @@ to {
   font-family: raleway;
   font-size: 20px;
   color: white;
- 
-}
+ }
 
 /**
 .tr {
@@ -369,6 +345,7 @@ to {
   padding: 5px;
 }
 **/
+
 .property-details-style {
  font-family: raleway;
  color: white;
@@ -387,16 +364,15 @@ to {
   display: flex;
   color: white;
   size: 20px;
-
 }
+
 .google-map {
   display: flex;
   padding-left: 20px;
    border-style: solid;
    width: 1200px;
    height: 500px;
-  
-}
+  }
 
 .contact-information {
   display:flex;
@@ -405,33 +381,13 @@ to {
   padding-top: 30px;
   color: white;
   font-size: 20px;
-
 }
 
-/**media queires max width of 1200
-@media screen and (max-width: 1200px) {
-  width: 100%;
-  
-}/**media query max widht 1024px**/
-
-  /**media queries max width 768px
-@media screen and (max-width: 800px) {
-  .navstyling2 {
-    display: flex;
-   
-  }
-  }
-**/
-
-
- /**media queries max with 480px**/
- @media screen and (max-width: 667px) {
-
- 
  .logostyling1 {
   font-size: 12px;
   float: left;
  }
+
     .navstyling2 {
        float: left;
        font-size: 12px;
@@ -439,25 +395,26 @@ to {
        display: grid;
        float: left;
      }
+
      .home {
       display: none;
      }
+
      .asidestyling {
       float: left;
       justify-content: left;
       padding-left: 2px;
       padding-right: 0;
       padding-top: 10px;
-     column-count: 2;
-      
+      column-count: 2;
       font-family: raleway;
       margin: 0;
-
      }
+
      .main-styling {
      float: left;
      }
-    }
+    
 /*
   .asidestyling {
   float: left;
@@ -486,4 +443,28 @@ to {
     font-size: 12px;
 
   }
+**/
+
+/**media queires max width of 1200
+@media screen and (max-width: 1200px) {
+  width: 100%;
+  
+}/**media query max widht 1024px**/
+
+  /**media queries max width 768px
+@media screen and (max-width: 800px) {
+  .navstyling2 {
+    display: flex;
+   
+  }
+  }
+**/
+
+
+ /**media queries max with 480px
+ @media only screen and (max-width: 400px)  {
+  body {background-color: green;
+        font-size: 5px;
+  }
+}
 **/
