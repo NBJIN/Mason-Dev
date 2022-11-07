@@ -334,7 +334,8 @@ body {
   color: white;
   size: 20px;
 }
-
+ 
+/**google map styling**/
 .google-map {
   display: flex;
   padding-left: 180px;
@@ -345,35 +346,89 @@ body {
   }
 
 
-  
-/**
-
- 
-
-    .navstyling2 {
-       float: left;
-       font-size: 12px;
-       padding: 20px;
-       display: grid;
-       float: left;
-     }
-
-     .home {
-      display: none;
-     }
-
-     .asidestyling {
-      float: left;
-      justify-content: left;
-      padding-left: 2px;
-      padding-right: 0;
-      padding-top: 10px;
-      column-count: 2;
+  /**# Phone 
+  @media only screen and (min-width:375px) {
+    .logostyling1 {
+      color: #EAC452;
+      size: 20px;
+      font-weight: bold;
       font-family: raleway;
-      margin: 0;
+      display: flex;
+      flex-direction: row;
+      align-content: flex-end;
+      justify-content: end;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      padding-left: 1px;
+  }
+
+  .navstyling2 {
+    background-color: #EAC452;
+    padding-top: 1px;
+    padding: 1px;
+    font-family: raleway;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    width: 85%;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+
+.main-styling h2 {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 1px;
+
+}
+
+    .home, .asidestyling {
+      display: none;
+    }
+
+
+    .main-styling > video {
+      width: 10px;
+      height: 10px;
+      justify-items: left;
+      padding-left: 1px;
+      width: 85%;
+    }
+       
+  .main-styling p {
+      font-size: 15px;
+      width: 85%;
+      padding-left: 1px;
+      text-align: left;
      }
 
-     .main-styling {
-     float: left;
+     .footerstyling h2 {
+      font-size: 15px;
+      text-align: left;
+      padding-left: 1px;
      }
+
+    a footer{
+      padding: 1px;
+      display: flex;
+      background-color: #EAC452;
+      font-weight: 50;
+      justify-content: left;
+  }
+
+
+     }
+
     
+  
+  
+  # Tablet
+ @media  only screen and (min-width:768px)
+  
+  # Desktop
+  @media only screen and (Mid-width:992px)
+
+
+
