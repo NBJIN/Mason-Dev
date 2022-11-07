@@ -1,14 +1,15 @@
+/**Styleing for 3 pages**/
 *{
   margin: 1px;
   padding: 1px;
   overflow: visible;
-
 }
 
 body {
    background-color: Black;
- 
- }
+  }
+
+/**CSS styling page1**/
 
 /** Styling of logo **/
   .logostyling1{
@@ -44,7 +45,6 @@ body {
 .underline {
   text-decoration: none;
   color: black;
-  font-weight: bolder;
   }
 
 /**Add hover to navigational items **/
@@ -79,6 +79,7 @@ body {
   font-size: 35px;
   color: white;
 }
+
 /**Style heading over main picture**/
 .main-styling {
   float: right;
@@ -123,37 +124,45 @@ body {
     text-align: center;
      }
 
+/**Style address details under nav bar for social media elements**/
  .footerstyling h3 {
     font-family: raleway;
-    padding-left: 100px;
+    padding-left: 30px;
     color:white;
     text-align: justify;
  }
 
- .footerstyling a {
+ 
+ /**Style social media element in nav bar **/
+ .footerstyling-target {
     display: flex;
     font-family: raleway;
-    font-size: 20px;
+    font-size: 40px;
+    padding: 20px;
     padding-left: 100px;
     color: black;
-    font-weight: 300;
+    font-weight: 200;
     text-decoration-line: none;
     justify-content: space-between;
-  }
-/**
+  } 
+
+
+  /**Style social media elements in nav bar**/
  .footerstyling i {
   font-size: 40px;
   display: flex;
   justify-content: space-evenly;
   padding-right: 20px;
+  
  }
+ 
 /**Style copyright**/
 #copyright {
-     font-family: raleway;
-      font-size: 20px;
-     padding-left: 100px;
-      font-weight: bold;
-     color: white;
+    font-family: raleway;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    color: white;
   }
   
 /**Nav bar containing social meidal icons**/
@@ -161,164 +170,165 @@ body {
     display: flex;
     background-color: #EAC452;
     justify-content: space-evenly;
-    padding: 20px;
+    
   }
-
+/**Style Return To Home Buttom Bottom of Screen**/
 #return-home {
   color: black;
   background-color: #EAC452;
-  font: raleway;
+  font: Raleway;
   padding: 10px;
-  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;  
 }
 
-
-
-
-
-
 /** CSS Styling For Page 2 of Website Specifications**/
-/**
+/**Style Specifications word under navigational bar**/
 .specifications {
   font-family: raleway;
-  font-size: 15px;
+  font-size: 10px;
   padding-top: 20px;
+  padding-left: 30px;
   color: white;
  }
 
+/**Style H2 heading under Nav bar**/
 .launch1 {
   display: flex;
   font-family: raleway;
-  font-size: 35px;
   justify-content: center;
   color: white;
 }
 
+/**Style Second H2 Heading under Nav bar**/
 .launch2 {
   display: flex;
   font-family: edwardian script itc;
-  font-size: 35px;
   justify-content: center;
   color: white;
 }
-
+/**Side Heading Styling for House Type The Cherry & The Maple**/
 .house-type1 {
   font-family: raleway;
   color: white;
+  padding-left: 30px;
 }
 
+/**table style for holding images**/
 .container-animation {
     position: relative;
-    animation-duration: 2s;
-    animation-name: slide;
-  
-}
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 
-@keyframes slide-1 {
-  from {margin-left: 100%;
-  width: 500px;
-}
-to {
-  margin-left: 0%;
-  width: 300px;
-}
-}
+/**H2 heading under images**/
 .foot-style-social-media h2 {
   font-family: raleway;
-  font-size: 40px;
   color: white;
   text-align: center;
 }
 
+/**Address Details End of Page**/
 .foot-style-social-media h3 {
   font-family: raleway;
-  font-size: 40px;
-  padding-left: 100px;
+  padding-left: 30px;
   color: white;
   text-align: justify;
 }
 
-.foot-style-social-media a {
-  display: flex;
-  font-family: raleway;
-  font-size: 20px;
-  padding-left: 100px;
+/**Style Return To Home Buttom Bottom of Screen**/
+#return-home {
   color: black;
-  font-weight: 300;
-  text-decoration-line: none;
-  justify-content: space-between;
+  background-color: #EAC452;
+  font: Raleway;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;  
 }
 
+/**Style copyright**/
 #copyright {
-    font-family: raleway;
-    font-size: 40px;
-    padding-left: 100px;
-    font-size: medium;
-    color: white;
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 30px;
+  color: white;
 }
 
 .fa-brands-styling {
-    padding: 30px;
-    display: flex;
-    background-color: #EAC452;
-    font-weight: 200;
-    justify-content: space-evenly;
-  }
+  padding: 30px;
+  display: flex;
+  background-color: #EAC452;
+  font-weight: 200;
+  justify-content: space-evenly;
+}
 
 /**CSS Styling for Page 3 Contact Us**/ 
-/**
+
+/**Contact Us word under the navigational bar**/
 .contact-us {
   font-family: raleway;
-  font-size: 15px;
+  font-size: 10px;
   padding-top: 20px;
+  padding-left: 30px;
   color: white;
 }
 
+/**legend containing contact us information**/
 .form-styling legend  {
   font-family: raleway;
   font-size: 25px;
+  text-align: center;
   color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+/**paragraph to arrange viewing**/
 .form-styling p {
   font-family: raleway;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 } 
 
-.table-styling {
+/**Table for appointment times**/
+.table-styling, tr, th, td {
   table-layout: fixed;
   font-family: raleway;
   font-size: 20px;
   color: white;
+  border-color: white;
+  border: 2px solid white;
  }
 
+ /**Project of Interest choice**/
+ .property-details-style {
+  font-family: raleway;
+  color: white;
+  font-size: 20px;
+ }
 /**
-.tr {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} 
-
-.table-header-data {
-  border: 1px solid white;
-  padding: 5px;
-}
-**/
-/**
-.property-details-style {
- font-family: raleway;
- color: white;
- font-size: 20px;
-}
-
-.property-type {
+ .property-type {
   display: flex;
   justify-content: left;
   font-family: raleway;
   color: white;
   font-size: 20px;
 }
+**/
 
+/**Contact Information details to be submitted on Form**/
+.contact-information {
+  display:flex;
+  flex-direction: row;
+  font-family: raleway;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+/**As Above contact details**/
 #name {
   display: flex;
   color: white;
@@ -327,25 +337,18 @@ to {
 
 .google-map {
   display: flex;
-  padding-left: 20px;
+  padding-left: 180px;
    border-style: solid;
    width: 1200px;
    height: 500px;
+  padding-right: 60px;
   }
 
-.contact-information {
-  display:flex;
-  flex-direction: row;
-  font-family: raleway;
-  padding-top: 30px;
-  color: white;
-  font-size: 20px;
-}
 
- .logostyling1 {
-  font-size: 12px;
-  float: left;
- }
+  
+/**
+
+ 
 
     .navstyling2 {
        float: left;
