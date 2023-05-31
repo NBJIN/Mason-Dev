@@ -87,6 +87,13 @@ body {
   margin: 30px;
  }
 
+ .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+ }
  .main-styling h2 {
     font-family: raleway;
     font-size: 25px;
