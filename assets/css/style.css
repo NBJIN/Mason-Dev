@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lato&display=swap');
+
 /**Styleing for 3 pages**/
 *{
   margin: 1px;
@@ -14,9 +16,9 @@ body {
 /** Styling of logo **/
   .logostyling1{
     color: #EAC452;
-    size: 30px;
+    font-size: 30px;
     font-weight: bold;
-    font-family: raleway;
+    font-family: 'Raleway';
     display: flex;
     flex-direction: row;
     align-content: flex-end;
@@ -339,7 +341,7 @@ body {
 #name {
   display: flex;
   color: white;
-  size: 20px;
+  font-size: 20px;
 }
  
 /**google map styling**/
@@ -351,91 +353,4 @@ body {
    height: 500px;
   padding-right: 60px;
   }
-
-
-  /**# Phone 
-  @media only screen and (min-width:375px) {
-    .logostyling1 {
-      color: #EAC452;
-      size: 20px;
-      font-weight: bold;
-      font-family: raleway;
-      display: flex;
-      flex-direction: row;
-      align-content: flex-end;
-      justify-content: end;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-right: 20px;
-      padding-left: 1px;
-  }
-
-  .navstyling2 {
-    background-color: #EAC452;
-    padding-top: 1px;
-    padding: 1px;
-    font-family: raleway;
-    font-size: 20px;
-    color: black;
-    display: flex;
-    width: 85%;
-    font-weight: bold;
-    justify-content: space-evenly;
-}
-
-
-.main-styling h2 {
-  font-size: 15px;
-  text-align: left;
-  padding-left: 1px;
-
-}
-
-    .home, .asidestyling {
-      display: none;
-    }
-
-
-    .main-styling > video {
-      width: 10px;
-      height: 10px;
-      justify-items: left;
-      padding-left: 1px;
-      width: 85%;
-    }
-       
-  .main-styling p {
-      font-size: 15px;
-      width: 85%;
-      padding-left: 1px;
-      text-align: left;
-     }
-
-     .footerstyling h2 {
-      font-size: 15px;
-      text-align: left;
-      padding-left: 1px;
-     }
-
-    a footer{
-      padding: 1px;
-      display: flex;
-      background-color: #EAC452;
-      font-weight: 50;
-      justify-content: left;
-  }
-
-
-     }
-
-    
-  
-  
-  # Tablet
- @media  only screen and (min-width:768px)
-  
-  # Desktop
-  @media only screen and (Mid-width:992px)
-
-
 
