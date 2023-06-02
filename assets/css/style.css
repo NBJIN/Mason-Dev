@@ -226,15 +226,21 @@ body {
 }
 
 /**table style for holding images**/
-.container-animation {
+.container-images, .container-images2 {
     position: relative;
     align-items: center;
     display: flex;
     justify-content: center;
   }
-
+  
+  /* .container-images2 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  } */
 /**H2 heading under images**/
-.foot-style-social-media h2 {
+.footerstyling h2 {
   font-family: raleway;
   color: white;
   text-align: center;
@@ -357,107 +363,148 @@ body {
   }
 
 
-  /* Media Queries */ 
+/* Media Queries */ 
 
-  /* Media Query For Table size */
-  @media screen and (max-width: 1200px) {
-    #flex-display-aside-main {
-          width: 65%;
-          height: 1200px;
-          margin: 0 auto;
+/* Media Query For Table size */
+@media screen and (max-width: 1200px) {
+#flex-display-aside-main {
+  width: 65%;
+  height: 1200px;
+  margin: 0 auto;
     }
 
-    .asidestyling {
-      padding: 30px 0;
-      margin: 0;
-
-    }
-
-    .home {
-        display: none;
-    }
-
-    .asidestyling {
-      display: none;
-    }
-
-
+.asidestyling {
+  padding: 30px 0;
+  margin: 0;
   }
 
+.home {
+  display: none;
+    }
+
+.asidestyling {
+  display: none;
+    }
+  }
+  
    /* Media Query from 950px and downwards */
-   @media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
-  .logostyling1 {
-      display: flex;
-      justify-content: center;
-      font-size: medium;
-      padding-left: 5px;
+.logostyling1 {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  padding-left: 5px;
     }
 
-  .navstyling2 {
-    padding-left: 0px;
+.navstyling2 {
+  padding-left: 0px;
   }
 
-  .main-styling {
-    float: none;
-    justify-content: center;
-    margin: 0px;
-    margin-left: 1px;
-    padding-left: 0px;
+
+.main-styling {
+  float: none;
+  justify-content: center;
+  margin: 0px;
+  margin-left: 1px;
+  padding-left: 0px;
   }
 
-  .main-styling h2 {
-    font-size: 20px;
-    justify-content: center;
+.main-styling h2 {
+  font-size: 20px;
+  justify-content: center;
   }
 
-  .video-container {
-    display: flex;
-    padding-left: 50px;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
+.video-container {
+  display: flex;
+  padding-left: 50px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
   }
 
-  #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-    } 
+/* #menu {
+  clear: left;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  }  */
 
-  .footerstyling h2 {
-    font-family: raleway;
-    color: white;
-    text-align: center;
-    font-size: 20px;
+.footerstyling h2 {
+  font-family: raleway;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  }
+
+.fa-brands-styling {
+  padding: 0px;
+  display: flex;
+  background-color: #EAC452;
+  font-weight: 100;
+  justify-content: space-evenly;
+  width: 100%;
+  }
+
+.footerstyling h3 {
+  font-family: raleway;
+  font-size: 20px;
+  padding-left: 5px;
+  color:white;
+  text-align: justify;
+  }
+
+#copyright {
+  font-size: 20px;
+  padding-left: 5px;
+  }
+
+.footerstyling-target {
+  padding-left: 10px;
+  } 
+
+/* Page 2 media queries */
+
+/**table style for holding images**/
+.container-images, .container-images2 {
+  width: 100%;
+  table-layout: fixed;
     }
 
-  .fa-brands-styling {
-    padding: 0px;
-    display: flex;
-    background-color: #EAC452;
-    font-weight: 100;
-    justify-content: space-evenly;
-    width: 100%;
-      }
+.container-images td, .container-images2 td {
+  width: 100%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0; 
+}
 
-  .footerstyling h3 {
-    font-family: raleway;
-    font-size: 20px;
-    padding-left: 5px;
-    color:white;
-    text-align: justify;
-    }
+.container-images img, .container-images2 img {
+  width: 100%;
+  margin-bottom: 10px;
+}
 
-  #copyright {
-    font-size: 20px;
-    padding-left: 5px;
-    }
+.specifications {
+  font-size: 7px;
+  justify-self: start;
+  padding-left: 5px;
+}
 
-  .footerstyling-target {
-    padding-left: 10px;
-    } 
-   }
+.launch1, .launch2 {
+  font-size: 15px;
+}
+
+.house-type1 {
+  padding-left: 5px;
+  font-size: 15px;
+
+}
+
+
+
+}
 
