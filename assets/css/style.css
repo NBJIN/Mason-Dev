@@ -504,6 +504,126 @@ body {
 
 }
 
+/* Page 3 media queries */
+
+.contact-us {
+  font-size: 7px;
+  /* margin-right: 2px; */
+  /* align-items: start; */
+  padding-left: 0px;
+
+}
+
+
+.form-styling legend {
+  text-align: left;
+  justify-self: start;
+  padding-left: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 50%;
+  font-size: 20px;
+}
+
+/* .form-styling legend  {
+  font-family: raleway;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.style {
+  font-size: 15px;
+  overflow: hidden;
+}
+
+/**paragraph to arrange viewing**/
+/* .form-styling p {
+  font-family: raleway;
+  font-size: 20px;
+  color: white;
+}  */
+
+.table-styling, tr, th, td {
+  table-layout: auto;
+  overflow: hidden;
+  font-size: 15px;
+  
+}
+
+/**Table for appointment times**/
+/* .table-styling, tr, th, td {
+  table-layout: fixed;
+  font-family: raleway;
+  font-size: 20px;
+  color: white;
+  border-color: white;
+  border: 2px solid white;
+ } */
+
+
+
+
+
+#property_of_interest {
+  font-size: 15px;
+ }
+
+ #property {
+
+ }
+
+ /**Project of Interest choice**/
+ /* .property-details-style {
+  font-family: raleway;
+  color: white;
+  font-size: 20px;
+ } */
+
+
+/**
+ .property-type {
+  display: flex;
+  justify-content: left;
+  font-family: raleway;
+  color: white;
+  font-size: 20px;
+}
+**/
+
+/**Contact Information details to be submitted on Form**/
+/* .contact-information {
+  display:flex;
+  flex-direction: row;
+  font-family: raleway;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+} */
+
+.contact-information {
+  /* display: table; */
+  /* flex-direction: row;  */
+  font-size: 15px;
+  overflow: hidden;
+  width: 100%;
+  /* margin-left: 0; */
+}
+
+/**As Above contact details**/
+/* #name {
+  display: flex;
+  color: white;
+  font-size: 20px;
+} */
+
+
+
+
+
 
 
 }
