@@ -16,7 +16,7 @@ body {
 /** Styling of logo **/
   .logostyling1{
     color: #EAC452;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Raleway';
     display: flex;
@@ -260,7 +260,7 @@ body {
   background-color: #EAC452;
   font: Raleway;
   padding: 10px;
-  font-size: 20px;
+  font-size: 10px;
   text-decoration: none;  
 }
 
@@ -274,7 +274,7 @@ body {
 }
 
 .fa-brands-styling {
-  padding: 30px;
+  padding: 0px;
   display: flex;
   background-color: #EAC452;
   font-weight: 200;
@@ -362,7 +362,7 @@ body {
   padding-right: 60px;
   }
 
-
+/* -------------------------------------------------------------------------------- */
 /* Media Queries */ 
 
 /* Media Query For Table size */
@@ -399,6 +399,9 @@ body {
 
 .navstyling2 {
   padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   }
 
 
@@ -573,6 +576,7 @@ body {
  }
 
  #property {
+  margin-left: 0;
 
  }
 
@@ -610,8 +614,11 @@ body {
   font-size: 15px;
   overflow: hidden;
   width: 100%;
+  margin-left: 0;
   /* margin-left: 0; */
 }
+
+
 
 /**As Above contact details**/
 /* #name {
@@ -622,14 +629,86 @@ body {
 
 
 .fieldset-styling {
-  margin: 1px;
+  display: inline-grid;
+  /* margin-right: 5px;
+ padding-right: 30px; */
   padding: 1px;
   overflow: auto;
   width: 99%;
 }
 
+.google-map h2 {
+  display: none;
+}
+
+.google-map {
+    /* display: flex; */
+    /* padding-left: 180px; */
+     /* border-style: solid; */
+     /* z-index: 0; */
+     width: 98%;
+     height: 98%;
+    /* padding-right: 60px; */
+    /* margin-left: 1px;
+    padding-left: 1px; */
+    /* position: relative; */
+    /* justify-content: start; */
+    /* overflow: scroll; */
 
 
+    /* overflow: hidden; */
+
+    /* position: relative; */
+
+
+    padding-left: 1px;
+    padding-right: 5px;
+    margin-left: 1px;
+    margin-right: 5px; 
+
+
+}
+
+.iframe-styling {
+  padding-left: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+
+.foot-style-social-media h2 {
+  font-family: raleway;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  }
+
+.fa-brands-styling {
+  padding: 0px;
+  display: flex;
+  background-color: #EAC452;
+  font-weight: 100;
+  justify-content: space-evenly;
+  width: 100%;
+  }
+
+.foot-style-social-media h3 {
+  font-family: raleway;
+  font-size: 20px;
+  padding-left: 5px;
+  color:white;
+  text-align: justify;
+  }
+
+#copyright {
+  font-size: 20px;
+  padding-left: 5px;
+  }
+
+.footerstyling-target {
+  padding-left: 10px;
+  } 
 
 }
 
