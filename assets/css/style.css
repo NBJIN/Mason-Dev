@@ -621,7 +621,12 @@ body {
 } */
 
 
-
+.fieldset-styling {
+  margin: 1px;
+  padding: 1px;
+  overflow: auto;
+  width: 99%;
+}
 
 
 
