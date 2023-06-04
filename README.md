@@ -1,17 +1,16 @@
-My full readme file is in a pdf document
+# Masons Developments
 
-# Masons Development
 
 ## Introduction
-
+#
 <p align="justify">
 First the name of the company, information, content and locations included for this project are all fictional. This project is based on a construction company called Mason Developments.  Part of the Masons business scope is the construction and sale of housing units to the public.  They are currently bringing to the market a housing development in a prime location in Dublin.   This project is based on a fictional housing development launch called Millbrook Manor in Dublin.  This website first gives the user a general senses of the area on page 1 of website as an important factor in most house purchases is location.   The website provides the location .address for the development, an overview of the development of a whole to give their target audience the extent of the development.  A description of the location and general area and surroudings is provided in order to give the target audience an idea and feel for the area not only with essestial servies but also local amenities and a general sense of the community that they live in if they choose to go ahead with a purcase. The second  is also provided informing their target audience of both.  The second page then move onto the second factor in a house purchase the type of house whether thatbe a detached property or a semi-detached property.  The user/visitor is given a range of details in order to reach a decision in their house purchase or purposed house purchase.  The range of content in the pictures provided will give the user and idea of the look and feel of each house type.  This content intends to provide the user with information so they can make a decision if they intend to visit for a visual experience.  This can be organised on page 3 of the website where the user can pick an appointment time  fill out their details and give the company an idea of the type of property they are insterested in viewing before they come to site. 
 </p>
-
-
+<br>
 
 
 ## Table of Contents
+#
 1. [User Experience](#user-experience)
 
     a)  Project Goals
@@ -67,13 +66,11 @@ First the name of the company, information, content and locations included for t
     c)  Code
 
 8. [Acknowledgements](#acknowledgements)
-
-
-
+<br>
 
 ## User Experience <a name="user-experience"></a>
-
-    a) Project Goals    
+#
+a) Project Goals    
 project goals
 -The website should give details to the user that they require in viewing a housing develpment
 -the general information about the area will give user details on loaction.
@@ -104,7 +101,7 @@ Hex color code  `#EAC452`
 
 White has been used for all text in the main body and footer element on each page.  Black text is used in the navigational bar, social meida banner and return to home button as there is a better contrast with black text on a yellow background.  
 
-Typography 
+#### Typography 
 The main font used for this project is Ralway.  Raleway is an elegant sans-serif typeface family.
 
 https://fonts.google.com/specimen/Raleway
@@ -113,12 +110,71 @@ Edwardian script itc has also been used for the name of the development.  This i
 
 https://en.wikipedia.org/wiki/File:Edwardian_Script.svg
 
+#### Wireframes
+Wireframes were completed on microsoft word for both desktop and mobile devices.  First you will see the desktop wireframes followed by mobile wireframes for each page.  
 
+- Desktop Page 1 Home Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/bc146d07-d7e6-4bcf-970d-37d8cad93c54)
+
+- Desktop Page 2 Specifications Page
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e7e8f775-637d-4dc9-90d7-433384fe7065)
+
+- Desktop Page 3 Contact Us Page
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/27141af1-4616-46a6-bd48-c199e0b1ef90)
+
+
+
+
+- Mobile Page 1 Home Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/6efebb23-c7b7-417b-ac92-399f33bac9a1)
+
+- Mobile Page 2 Specifications Page
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/366cdcc4-a743-4053-b266-100a2af82044)
+
+- Mobile Page 3 Contact Us Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/1eb5859e-0ed6-4b35-9ef6-1b85d6e5a107)
+<br>
 
 ## Features<a name="features"></a>
+#
+The website contains 3 pages.  These are as follows:
+ - Home Page
+ - Specifications Page
+ - Contact Us Page
+
+#### Header Section
+The header section contains the logo and menu/navigational bar.  This header section is responsive across desktop, tablet and mobile devices.  The layout of the logo and menu bar stays in the same format across all three devices.  There are three links on the menu bar which are Home, Specifications and Contact Us.  When the user clicks on the appropriate link it will navigate to the selected page.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d385bb8d-f475-41f5-870f-4bf0f97506a3)
+
+#### Footer Section 
+The footer section contains the links to the social meida platforms for the company.  There are three social media links in total which are as follows:
+ - Facebook
+ - Twitter
+ - Instagram
+ When the user click on the link of choice it will navigate to that page.  
+
+ Also the footer section contains a return to home button when clicked will bring the user back to the top of the page.  The footer element is responsive across destop, tablet and mobile and it retains it format for each device.  The footer element also contains the contact details for the company and copyright information.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/b27502fc-4b00-4f03-bc59-00d239b64715)
+
+The home page contains a video element and the user has full control if they wish to play, stop or expand the screen. 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/90276f49-646f-402a-b65b-d7c49a7d1b36)
+
+The contact us page contains a forms in which the user can choose a viewing time for a house type and submit their details.  
+
+# NED TO FIX THIS PAGE BEFORE PASING IT IN 
+<br>
 
 ## Technologies Used<a name="technologies-used"></a>
-
+#
 - GitHub https://github.com/NBJIN/Mason-Dev & Gitpod https://nbjin-masondev-k0gnga04yqe.ws-eu98.gitpod.io/ for version control, safe storage and deployement. 
 - Inspector / Dev Tools was used for debugging and troubleshooting.  
 - Google Fonts was used to import fonts used in this website https://fonts.google.com/
@@ -129,13 +185,18 @@ https://en.wikipedia.org/wiki/File:Edwardian_Script.svg
 - Font Awesome - was utilised for the image on the logo on the tope of each page and also the social media elements on the bottom of each page.  https://fontawesome.com/search?q=building%20columns&o=r
 - Google Maps - The map on page three was sourced from google maps. https://www.google.com/maps/@52.6551181,-8.6496702,14z?entry=ttu
 - Pexels for the provision of images and video for the site.  https://www.pexels.com/
-
+<br>
 
 ## Testing<a name="testing"></a>
+#
+<br>
 
 ## Finished Product<a name="finished-product"></a>
+#
+<br>
 
 ## Deployment<a name="deployment"></a>
+#
 The site was deployed to GitHub Pages.  The steps to deploy are as follows: 
 
 - In the Github repository https://github.com/NBJIN/Mason-Dev navigate to the settings tab.
@@ -168,11 +229,10 @@ You can clone the repository by completing the following steps:
  - Log into GitHub and locate the github repository https://github.com/NBJIN/Mason-Dev 
  - At the top right of the page you will see the Fork button 
  - Click on this and you should now have a copy of the original repository in your own GitHub account.  
-
-
-
+<br>
 
 ## Credits<a name="credits"></a>
+#
 - All the content was written by the owner of this website.
 - Media - All pictures and video for this project were taken from Pexels. https://www.pexels.com/
 - logo & Social Media Element  - the image was taken from fontawesome. https://fontawesome.com/search?q=building%20columns&o=r
@@ -181,15 +241,13 @@ You can clone the repository by completing the following steps:
 - Kevin Powell on youtube on elements such as CSS Grid and Flexbox. https://www.youtube.com/watch?v=u044iM9xsWU
 - Google Maps which provided the map on page three of the site.  https://www.google.com/maps/@52.6551181,-8.6496702,14z?entry=ttu
 - Google/Slack/Stackoverflow for troubleshooting and debugging.  
-
-
-
+<br>
 
 ## Acknowledgements<a name="acknowledgements"></a>
+#
+I would like to say a special word of thanks to the following for their help and guidance.  
 
-I would like to say a spcial word of thanks to the following for their help and guidance.  
-
-- Code Institue for the provision of great platforms e.g. Slack to voice ideas and discuss issues / problems with other students.
+- Code Institue for the provision of great platforms e.g. Slack to voice ideas and discuss issues / problems with other students and the LMS for all course content.
 - Code Institue Class Group for the great tips.
 - Code Institute Class Co-ordinator for his time, valualbe idea, help and advice.
 - Tutor Assitance for their assistance with troubleshooting.  
