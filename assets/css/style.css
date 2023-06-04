@@ -356,10 +356,11 @@ body {
 .google-map {
   display: flex;
   padding-left: 180px;
-   border-style: solid;
-   width: 1200px;
-   height: 500px;
+  border-style: solid;
+  width: 1200px;
+  height: 500px;
   padding-right: 60px;
+  justify-content: center;
   }
 
 /* -------------------------------------------------------------------------------- */
