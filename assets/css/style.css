@@ -138,7 +138,9 @@ body {
  .footerstyling h2 {
     font-family: raleway;
     color: white;
-    text-align: center;
+    font-size: 20px;
+    padding-left: 30px;
+    /* text-align: left; */
      }
 
 /**Style address details under nav bar for social media elements**/
@@ -261,11 +263,13 @@ body {
 .footerstyling h2 {
   font-family: raleway;
   color: white;
-  text-align: center;
+  font-size: 20px;
+  padding-left: 30px;
+  /* text-align: center; */
 }
 
 /**Address Details End of Page**/
-.foot-style-social-media h3 {
+.footerstyling h3 {
   font-family: raleway;
   padding-left: 30px;
   color: white;
@@ -467,7 +471,8 @@ body {
 .footerstyling h2 {
   font-family: raleway;
   color: white;
-  text-align: center;
+  padding-left: 30px;
+  /* text-align: center; */
   font-size: 20px;
   }
 
@@ -707,11 +712,11 @@ body {
 }
 
 
-.foot-style-social-media h2 {
+.footerstyling h2 {
   font-family: raleway;
   color: white;
-  text-align: center;
   font-size: 20px;
+  padding-left: 30px;
   }
 
 .fa-brands-styling {
@@ -723,7 +728,7 @@ body {
   width: 100%;
   }
 
-.foot-style-social-media h3 {
+.footerstyling h3 {
   font-family: raleway;
   font-size: 20px;
   padding-left: 5px;
