@@ -371,19 +371,29 @@ body {
 
 /**Contact Information details to be submitted on Form**/
 .contact-information {
-  display:flex;
-  flex-direction: row;
+  /* display:flex;
+
+  flex-direction: row; */
   font-family: raleway;
   padding-top: 20px;
   color: white;
   font-size: 20px;
 }
 /**As Above contact details**/
-#name {
-  display: flex;
-  color: white;
-  font-size: 20px;
+#property {
+  width: 310px;
+  height: 25px;
 }
+#name {
+  width: 310px;
+  height: 20px;
+}
+#email {
+  width: 310px;
+  height: 20px;
+
+}
+
  
 /**google map styling**/
 .google-map {
@@ -573,6 +583,8 @@ body {
   padding-right: 20px;
 } */
 
+
+
 .style {
   font-size: 15px;
   overflow: hidden;
@@ -607,7 +619,8 @@ body {
 
 
 #property_of_interest {
-  font-size: 15px;
+  font-size: 20px;
+  font-family: raleway;
  }
 
  #property {

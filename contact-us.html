@@ -72,37 +72,52 @@
                         </tr>
                     </table>
                     <br>
-                   <div class="property-details-style">
+                    <div class="property-details-style">
                         <label id="property_of_interest"><strong>Property of Interest:</strong></label>
                             <!-- <select id="property" name="property_of_interest" style="margin-left: 35px" required> -->
-                            <select id="property" name="property_of_interest" required>
-                            <option value="detached">Detached Property</option>
-                            <option value="semi-detached">Semi-Detached Property</option>
-                        </select>
+                           <div>
+                                <select id="property" name="property_of_interest" required>
+                                <option value="detached">Detached Property</option>
+                                <option value="semi-detached">Semi-Detached Property</option>
+                            </select>
+                            </div>
                     </div>
+
                     <div class="contact-information">
-                        <label><strong>Name:</strong></label>&nbsp
+                        <label><strong>Name:</strong></label>
                         <!-- <input type="text" style="margin-left:147px" required> -->
-                        <input type="text" id="name" style="margin-left:95px" required>
+                        <div>
+                        <!-- <input type="text" id="name" style="margin-left:95px" required> -->
+                        <input type="text" id="name" required>
+                        </div>
                     </div>
+
                      <div class="contact-information" >
-                        <label for="email"><strong>Email:</strong></label>&nbsp
+                        <label for="email"><strong>Email:</strong></label>
                         <!-- <input id="email" type="email" style="margin-left:152px" required> -->
-                        <input id="email" type="email" style="margin-left:95px" required>
+                        <!-- <input id="email" type="email" style="margin-left:95px" required> -->
+                        <div>
+                        <input id="email" type="email" required>
+                        </div>
+                        
                     </div>
+
                     <div class="contact-information">
-                        <label for="message"><strong>Message:</strong></label>&nbsp 
+                        <label for="message"><strong>Message:</strong></label>
                         <!-- <textarea name="area_one" id="area_one" rows="5" cols="20" style="margin-left:120px"></textarea> -->
-                        <textarea name="message" id="message" rows="5" cols="20"></textarea>
+                        <div>
+                        <textarea name="message" id="message" rows="7" cols="40"></textarea>
+                        </div>
                     </div>
+
                     <br>
                     <div>
                         <label for="submit"><strong>Submit Your Details</strong></label>
                         <input type="submit" id="submit" value="Submit Your Details">
-                        </div>                           
-                    </fieldset>
-                    </form>
-                </div>
+                    </div>                           
+                </fieldset>
+            </form>
+        </div>
                 <br>
                 <br>
                 <br>
