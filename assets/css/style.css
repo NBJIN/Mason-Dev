@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lato&display=swap');
 
-/**Styleing for 3 pages**/
+/**Main styling for 3 pages**/
 *{
   margin: 1px;
   padding: 1px;
@@ -9,25 +9,25 @@
 
 body {
    background-color: Black;
-  }
+}
 
-/**CSS styling page1**/
+/**CSS styling page1 Home Page **/
 
 /** Styling of logo **/
-  .logostyling1{
-    color: #EAC452;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Raleway';
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    justify-content: end;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-     }
+.logostyling1{
+  color: #EAC452;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Raleway';
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: end;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 /**Styling for Navigational Items and Background **/
 .navstyling2 {
@@ -48,34 +48,35 @@ body {
 .underline {
   text-decoration: none;
   color: black;
-  }
+}
 
-/**Add hover to navigational items **/
+/**links on navigational bar to pages **/
 .button-effect {
   color: black;
   text-decoration: none;
 }
 
+/** links on navigational bar to pages **/
 .button-effect:hover {
   color: red;
   text-decoration: none;
 }
 
- /**Style Home word under navigational bar **/ 
+/**Style Home word under navigational bar **/ 
 .home {
   font-family: raleway;
   font-size: 10px;
   padding-top: 20px;
   padding-left: 30px;
   color: white;
- }
+}
 
- /**Positioning of side text **/
+/**Positioning of side text **/
 .flex-display-aside-main {
   display: flex;
- }
+}
 
- /**Styling For side text **/
+/**Styling For side text **/
 .asidestyling {
   float: left;
   justify-content: left;
@@ -91,31 +92,33 @@ body {
 
 /**Style heading over main picture**/
 .main-styling {
-
   float: right;
   justify-content: right;
   margin: 30px;
- }
+}
 
- .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/**Video on body of page**/
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/** Welcome heading **/
+.main-styling h2 {
+  font-family: raleway;
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+}
 
- }
- .main-styling h2 {
-    font-family: raleway;
-    font-size: 25px;
-    color: white;
-    text-align: justify;
-  }
-
- .main-styling h2 {
+/** Welcome heading **/
+.main-styling h2 {
   text-align: center;
- }
+}
 
- .main-styling  {
+/** styling for main-styling div **/
+.main-styling  {
   font-family: raleway;
   font-size: 20px;
   color: white;
@@ -123,7 +126,7 @@ body {
 }
 
 /**Video Style**/
- .main-styling > video {
+.main-styling > video {
   width: 400px;
   height: 300px;
   justify-content: center;
@@ -132,66 +135,60 @@ body {
   border-style: solid;
   overflow: auto;
   align-items: center;
- }
+}
 
- /**Style heading underneath main paragraph**/
- .footerstyling h2 {
-    font-family: raleway;
-    color: white;
-    font-size: 20px;
-    padding-left: 30px;
-    /* text-align: left; */
-     }
+/**Style heading underneath main paragraph**/
+.footerstyling h2 {
+  font-family: raleway;
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+}
 
 /**Style address details under nav bar for social media elements**/
- .footerstyling h3 {
-    font-family: raleway;
-    padding-left: 30px;
-    color:white;
-    text-align: justify;
- }
-
+.footerstyling h3 {
+  font-family: raleway;
+  padding-left: 30px;
+  color:white;
+  text-align: justify;
+}
  
  /**Style social media element in nav bar **/
- .footerstyling-target {
-    display: flex;
-    font-family: raleway;
-    font-size: 40px;
-    padding: 20px;
-    padding-left: 100px;
-    color: black;
-    font-weight: 200;
-    text-decoration-line: none;
-    justify-content: space-between;
-  } 
+.footerstyling-target {
+  display: flex;
+  font-family: raleway;
+  font-size: 40px;
+  padding: 20px;
+  padding-left: 100px;
+  color: black;
+  font-weight: 200;
+  text-decoration-line: none;
+  justify-content: space-between;
+} 
 
-
-  /**Style social media elements in nav bar**/
- .footerstyling i {
+/**Style social media elements in nav bar**/
+.footerstyling i {
   font-size: 40px;
   display: flex;
   justify-content: space-evenly;
   padding-right: 20px;
-  
- }
+}
  
 /**Style copyright**/
 #copyright {
-    font-family: raleway;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 30px;
-    color: white;
-  }
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 30px;
+  color: white;
+}
   
 /**Nav bar containing social meidal icons**/
- .fa-brands-styling {
-    display: flex;
-    background-color: #EAC452;
-    justify-content: space-evenly;
-    
-  }
-
+.fa-brands-styling {
+  display: flex;
+  background-color: #EAC452;
+  justify-content: space-evenly;  
+}
   
 /**Style Return To Home Buttom Bottom of Screen**/
 #return-home {
@@ -203,7 +200,7 @@ body {
   text-decoration: none;  
 }
 
-/** CSS Styling For Page 2 of Website Specifications**/
+/** CSS Styling For Page 2 of Website Specifications Page **/
 /**Style Specifications word under navigational bar**/
 .specifications {
   font-family: raleway;
@@ -213,11 +210,13 @@ body {
   color: white;
  }
 
- .button-effect {
+/**links on navigational bar to pages **/
+.button-effect {
   color: black;
   text-decoration: none;
 }
 
+/**links on navigational bar to pages **/
 .button-effect:hover {
   color: red;
   text-decoration: none;
@@ -238,6 +237,7 @@ body {
   justify-content: center;
   color: white;
 }
+
 /**Side Heading Styling for House Type The Cherry & The Maple**/
 .house-type1 {
   font-family: raleway;
@@ -247,25 +247,18 @@ body {
 
 /**table style for holding images**/
 .container-images, .container-images2 {
-    position: relative;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
   
-  /* .container-images2 {
-    position: relative;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  } */
 /**H2 heading under images**/
 .footerstyling h2 {
   font-family: raleway;
   color: white;
   font-size: 20px;
   padding-left: 30px;
-  /* text-align: center; */
 }
 
 /**Address Details End of Page**/
@@ -286,7 +279,7 @@ body {
   text-decoration: none;  
 }
 
-/**Style copyright**/
+/**Style Copyright**/
 #copyright {
   font-family: raleway;
   font-size: 20px;
@@ -295,6 +288,7 @@ body {
   color: white;
 }
 
+/** Social Media Links**/
 .fa-brands-styling {
   padding: 0px;
   display: flex;
@@ -303,20 +297,21 @@ body {
   justify-content: space-evenly;
 }
 
-/**CSS Styling for Page 3 Contact Us**/ 
+/**CSS Styling for Page 3 Contact Us Page**/ 
 
-/**Contact Us word under the navigational bar**/
-
+/**links on navigational bar to pages **/
 .button-effect {
   color: black;
   text-decoration: none;
 }
 
+/**links on navigational bar to pages **/
 .button-effect:hover {
   color: red;
   text-decoration: none;
 }
 
+/** Heading just under nav bar **/
 .contact-us {
   font-family: raleway;
   font-size: 10px;
@@ -359,41 +354,35 @@ body {
   color: white;
   font-size: 20px;
  }
-/**
- .property-type {
-  display: flex;
-  justify-content: left;
-  font-family: raleway;
-  color: white;
-  font-size: 20px;
-}
-**/
 
 /**Contact Information details to be submitted on Form**/
 .contact-information {
-  /* display:flex;
-
-  flex-direction: row; */
+  flex-direction: row; 
   font-family: raleway;
   padding-top: 20px;
   color: white;
   font-size: 20px;
 }
+
 /**As Above contact details**/
 #property {
   width: 310px;
   height: 25px;
 }
+
+/**Name details**/
 #name {
   width: 310px;
   height: 20px;
 }
+
+/**Email details**/
 #email {
   width: 310px;
   height: 20px;
-
 }
 
+/**Submit button on form**/
 #submit {
   color: black;
   background-color: #EAC452;
@@ -403,7 +392,6 @@ body {
   float: left;
 }
 
- 
 /**google map styling**/
 .google-map {
   display: flex;
@@ -413,18 +401,18 @@ body {
   height: 500px;
   padding-right: 60px;
   justify-content: center;
-  }
+}
 
 /* -------------------------------------------------------------------------------- */
 /* Media Queries */ 
 
-/* Media Query For Table size */
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 #flex-display-aside-main {
   width: 65%;
   height: 1200px;
   margin: 0 auto;
-    }
+  }
 
 .asidestyling {
   padding: 30px 0;
@@ -433,22 +421,21 @@ body {
 
 .home {
   display: none;
-    }
+  }
 
 .asidestyling {
   display: none;
-    }
   }
+}
   
-   /* Media Query from 950px and downwards */
+/** For medium screen sizes from 950px wide and down  */
 @media screen and (max-width: 950px) {
-
 .logostyling1 {
   display: flex;
   justify-content: center;
   font-size: medium;
   padding-left: 5px;
-    }
+  }
 
 .navstyling2 {
   padding-left: 0px;
@@ -456,7 +443,6 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   }
-
 
 .main-styling {
   float: none;
@@ -479,19 +465,10 @@ body {
   overflow: hidden;
   }
 
-/* #menu {
-  clear: left;
-  float: left;
-  margin-left: 30px;
-  margin-bottom: 20px;
-  line-height: 25px;
-  }  */
-
 .footerstyling h2 {
   font-family: raleway;
   color: white;
   padding-left: 30px;
-  /* text-align: center; */
   font-size: 20px;
   }
 
@@ -522,12 +499,11 @@ body {
   } 
 
 /* Page 2 media queries */
-
 /**table style for holding images**/
 .container-images, .container-images2 {
   width: 100%;
   table-layout: fixed;
-    }
+  }
 
 .container-images td, .container-images2 td {
   width: 100%;
@@ -538,39 +514,33 @@ body {
   justify-content: center;
   width: 100%;
   margin: 10px 0; 
-}
+  }
 
 .container-images img, .container-images2 img {
   width: 100%;
   margin-bottom: 10px;
-}
+  }
 
 .specifications {
   font-size: 7px;
   justify-self: start;
   padding-left: 5px;
-}
+  }
 
 .launch1, .launch2 {
   font-size: 15px;
-}
+  }
 
 .house-type1 {
   padding-left: 5px;
   font-size: 15px;
-
-}
+  }
 
 /* Page 3 media queries */
-
 .contact-us {
   font-size: 7px;
-  /* margin-right: 2px; */
-  /* align-items: start; */
   padding-left: 0px;
-
-}
-
+  }
 
 .form-styling legend {
   text-align: left;
@@ -580,151 +550,54 @@ body {
   padding-right: 1px;
   width: 50%;
   font-size: 20px;
-}
-
-/* .form-styling legend  {
-  font-family: raleway;
-  font-size: 25px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
-
+  }
 
 .style {
   font-size: 15px;
   overflow: hidden;
-}
-
-/**paragraph to arrange viewing**/
-/* .form-styling p {
-  font-family: raleway;
-  font-size: 20px;
-  color: white;
-}  */
+  }
 
 .table-styling, tr, th, td {
   table-layout: auto;
   overflow: hidden;
   font-size: 15px;
-  
-}
-
-/**Table for appointment times**/
-/* .table-styling, tr, th, td {
-  table-layout: fixed;
-  font-family: raleway;
-  font-size: 20px;
-  color: white;
-  border-color: white;
-  border: 2px solid white;
- } */
-
-
-
-
+  }
 
 #property_of_interest {
   font-size: 20px;
   font-family: raleway;
- }
+  }
 
  #property {
   margin-left: 0;
-
- }
-
- /**Project of Interest choice**/
- /* .property-details-style {
-  font-family: raleway;
-  color: white;
-  font-size: 20px;
- } */
-
-
-/**
- .property-type {
-  display: flex;
-  justify-content: left;
-  font-family: raleway;
-  color: white;
-  font-size: 20px;
-}
-**/
-
-/**Contact Information details to be submitted on Form**/
-/* .contact-information {
-  display:flex;
-  flex-direction: row;
-  font-family: raleway;
-  padding-top: 20px;
-  color: white;
-  font-size: 20px;
-} */
+  }
 
 .contact-information {
-  /* display: table; */
-  /* flex-direction: row;  */
   font-size: 15px;
   overflow: hidden;
   width: 100%;
   margin-left: 0;
-  /* margin-left: 0; */
-}
-
-
-
-/**As Above contact details**/
-/* #name {
-  display: flex;
-  color: white;
-  font-size: 20px;
-} */
-
+  }
 
 .fieldset-styling {
   display: inline-grid;
-  /* margin-right: 5px;
- padding-right: 30px; */
   padding: 1px;
   overflow: auto;
   width: 99%;
-}
+  }
 
 .google-map h2 {
   display: none;
-}
+  }
 
 .google-map {
-    /* display: flex; */
-    /* padding-left: 180px; */
-     /* border-style: solid; */
-     /* z-index: 0; */
-     width: 98%;
-     height: 98%;
-    /* padding-right: 60px; */
-    /* margin-left: 1px;
-    padding-left: 1px; */
-    /* position: relative; */
-    /* justify-content: start; */
-    /* overflow: scroll; */
-
-
-    /* overflow: hidden; */
-
-    /* position: relative; */
-
-
-    padding-left: 1px;
-    padding-right: 5px;
-    margin-left: 1px;
-    margin-right: 5px; 
-
-
-}
+  width: 98%;
+  height: 98%;
+  padding-left: 1px;
+  padding-right: 5px;
+  margin-left: 1px;
+  margin-right: 5px; 
+  }
 
 .iframe-styling {
   padding-left: 0px;
@@ -732,7 +605,6 @@ body {
   overflow: hidden;
   justify-content: center;
 }
-
 
 .footerstyling h2 {
   font-family: raleway;
@@ -766,6 +638,4 @@ body {
 .footerstyling-target {
   padding-left: 10px;
   } 
-
 }
-
