@@ -394,6 +394,15 @@ body {
 
 }
 
+#submit {
+  color: black;
+  background-color: #EAC452;
+  font: Raleway;
+  padding: 5px;
+  font-size: 15px;
+  float: left;
+}
+
  
 /**google map styling**/
 .google-map {
