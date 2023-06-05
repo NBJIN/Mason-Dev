@@ -38,9 +38,10 @@ body {
   font-size: 20px;
   color: black;
   display: flex;
-  width: 100%;
+  max-width: 100%;
   font-weight: bold;
   justify-content: space-evenly;
+  text-decoration: none;
 }
 
 /**Styling to remove the underline from Navigational items **/
@@ -50,8 +51,14 @@ body {
   }
 
 /**Add hover to navigational items **/
-.hover {
-  color: dimgray;
+.button-effect {
+  color: black;
+  text-decoration: none;
+}
+
+.button-effect:hover {
+  color: red;
+  text-decoration: none;
 }
 
  /**Style Home word under navigational bar **/ 
@@ -84,6 +91,7 @@ body {
 
 /**Style heading over main picture**/
 .main-styling {
+
   float: right;
   justify-content: right;
   margin: 30px;
@@ -203,6 +211,16 @@ body {
   color: white;
  }
 
+ .button-effect {
+  color: black;
+  text-decoration: none;
+}
+
+.button-effect:hover {
+  color: red;
+  text-decoration: none;
+}
+
 /**Style H2 heading under Nav bar**/
 .launch1 {
   display: flex;
@@ -284,6 +302,17 @@ body {
 /**CSS Styling for Page 3 Contact Us**/ 
 
 /**Contact Us word under the navigational bar**/
+
+.button-effect {
+  color: black;
+  text-decoration: none;
+}
+
+.button-effect:hover {
+  color: red;
+  text-decoration: none;
+}
+
 .contact-us {
   font-family: raleway;
   font-size: 10px;
