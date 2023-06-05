@@ -142,7 +142,7 @@ body {
   font-family: raleway;
   color: white;
   font-size: 20px;
-  padding-left: 30px;
+  padding-left: 5px;
 }
 
 /**Style address details under nav bar for social media elements**/
@@ -258,7 +258,7 @@ body {
   font-family: raleway;
   color: white;
   font-size: 20px;
-  padding-left: 30px;
+  padding-left: 5px;
 }
 
 /**Address Details End of Page**/
@@ -334,7 +334,8 @@ body {
 /**paragraph to arrange viewing**/
 .form-styling p {
   font-family: raleway;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   color: white;
 } 
 
@@ -463,12 +464,15 @@ body {
   width: 300px;
   height: 300px;
   overflow: hidden;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .footerstyling h2 {
   font-family: raleway;
   color: white;
-  padding-left: 30px;
+  padding-left: 5px;
   font-size: 20px;
   }
 
@@ -610,7 +614,7 @@ body {
   font-family: raleway;
   color: white;
   font-size: 20px;
-  padding-left: 30px;
+  padding-left: 5px;
   }
 
 .fa-brands-styling {
