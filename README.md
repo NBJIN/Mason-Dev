@@ -45,9 +45,7 @@ First the name of the company, information, content and locations included for t
 
     c)  Accessibility 
 
-    d)  Tools Testing
-
-    e)  Manual Testing
+    d)  Manual Testing
 
 5. [Finished Product](#finished-product)
 
@@ -241,6 +239,71 @@ navigational bar and is responsive across laptop, tablet and mobile.
 #
 <br>
 
+### a) Testing User Stories 
+- As a user i want to easily navigate the website and find information about the housing development 
+eg amenities, location, name, video and images.  
+ The website has a very clear navigational bar where there is links to the Home, Specifications and 
+ Contact Us Page. On the home page there there details about the development, name, where it is located, 
+ amenities and energy rating details and there is also a video showing an overview of the development 
+ giving the visitor an ariel view of the development.  The footer holds the links to social media links facebook, twitter and instagram.  The navbar allows the user to naviage to the specifications page 
+ where the user can get a sense of the layout  and look of each house type as there is images for 
+ internal and external layout and design.  It informs the user there is two house types and gives 
+ the names for each. 
+    Home (Index) Page
+    ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/cf7bba9c-cd5f-41f5-b7ba-3c07e4dac60e)
+
+    Specifications Page 
+    ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/359eaf69-41af-490e-bdaf-50813e208330)
+
+
+ - As a user i want to be able to make contact with the company easily either through a form or contact details visible on the site. - Page 3 of the site the Contact Us Page provides the user with a form where they
+ can choose a viewing time to view a property.  They can choose wheater they want to view a detached 
+ or semi- detached layout and they can input their name, email and foward a message.  Underneath the form there is a google map and the user can see exactly where the company is located.  The visitor also has the option to email the company directly, phone or post any queries to the details provided in the 
+ footer section.
+ Contact Us Page - Contact Form   
+ ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/94ef92bf-a6f2-4d24-a249-aeee34d804ea)
+ Contact Us Page - Google Map and Footer section with eamil, address and phone number
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2a713f40-5475-4f7d-8e0b-8cdea80024aa)
+
+- - As a user I want the website to load quickly and have a clean and visually appealing design so that i can have a positive user experience. Below is a list of loading times for each page and style.css 
+pages which were provided through dev tools.  
+
+loading time for Index.html (home)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/32404970-51ea-4177-897e-b2c49e3ddf88)
+
+loading time for Index style.css
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/26e70561-dda2-4d16-b5b0-18ddbac4c012)
+
+loading time for specifications.html
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/3e25ebc3-880a-4cd8-919a-9e5102f3947e)
+loading time for specifications style.css
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e45b4fca-8784-4cd2-928c-469ac2f7b0bf)
+
+loading time for contact.html 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/31162af5-d6d3-4576-a466-cf217e465ca9)
+
+loading time for contact style.css
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/0769bdfd-68d0-4661-99bf-36ff0ccfc9c3)
+
+- As a user i want to be able to view the website across different devices for example desktop, 
+laptop and mobile. The website is reponsive aross all the following devices:
+    - Desktop
+    - iPad 768 x 1024
+    - Samsung Galaxy S8+ 360 x 740
+    - iphone 6/ 7 / 8 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/6393d6e3-c517-4813-af02-dc71f6883de0)
+
+- As a user i want to see where the company is operating from. - The contact details are provided 
+in the footer of each page and also there is a google map pin on the contact us page.  
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/27be598c-5877-4875-a4e6-49b12bf4e566)
+
+- As a user i want to have control over the video so that i can play and stop it when i like. The 
+video element on the home page allows the user to play and stop the video as they choose.   
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/bafc3611-c10c-4eb4-876b-3ec48862a15b)
+
+### b) Code Validation
+
 #### W3C Html Validator 
 First Round of Testing
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/92c2db24-bc9d-4e24-bf88-75d3502c1836)
@@ -381,6 +444,44 @@ Warnings
 Second Check through CSS Validator 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/07526058-392e-494f-9c07-a867a38ea2c3)
 
+### c) Accessilility 
+Desktop
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2c87690e-ba80-4f46-9b47-d2041209a0af)
+
+### d) Manual Testing
+#### Navigation Bar On Each Page
+When the user click on the home link in the nav bar it will bring the user to the home page. 
+When the specifications link on the nav bar is clicked it will bring them to the 
+specifications page.  When the contact us link is clicked it will bring the user to the 
+contact us page.  
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d0adbe5c-79ec-44ef-a33e-8a189a7bcba6)
+
+#### Links On The Navigation Bar On Each Page 
+When the user hover over each link the link will change from black to red.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/7b54000c-e8ce-4627-a023-cfcc980b11ea)
+
+#### Video on Home Page
+The user can play and stop the video when they wish with the control for same on the bottom 
+left hand corner of the video on the home page.  
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/35a90df4-4a69-497d-9237-7bfb5c13e3dc)
+
+#### Social Media Links On Footer On Each Page 
+When the user click on the social media elements in the footer it will bring them to the 
+following pages: 
+ - facebook
+ - instagram
+ - twitter
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/a103d268-f111-4225-b16d-ab7a26f4091c)
+
+#### Return To Home Button On Each Page 
+The return to home button on the bottom of each page will bring the user back up to the top of the page that they are currently on. 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/9fe64cab-c86c-4053-a38c-aed65871f30f)
+
+#### Contact Form On The Contact Us Page 
+The user can enter their details on the contact form and the user will not be able to submit the form unless a property of interest, name and email is
+submitted. 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/84d91e88-8469-45d6-b6be-b97ba65001c0)
 
 
 
