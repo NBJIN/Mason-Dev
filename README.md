@@ -1,5 +1,5 @@
 # Masons Developments
-
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/a135fcab-a63a-48ea-b652-26664f156569)
 
 ## Introduction
 #
@@ -191,9 +191,40 @@ The contact us page contains a forms in which the user can choose a viewing time
 #
 <br>
 
+#### W3C Html Validator 
+First Round of Testing
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/92c2db24-bc9d-4e24-bf88-75d3502c1836)
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2db1e9a8-f682-4a64-b872-74ff16498a5e)
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/12425a82-da28-4fe4-bf73-a350b1f19b02)
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/cdef42c3-3baa-49e8-9ba4-ab0b2c335fed)
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/79f83b16-e86d-4a66-afaf-e504a9982481)
+
+
+
+
 ## Finished Product<a name="finished-product"></a>
 #
 <br>
+Home Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/7f2e1515-b42f-4986-a0f8-8cd8b806f209)
+
+Specifications Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/8912f5da-f5fc-4bc8-8d03-d42bf5be2eac)
+
+Contact Us Page 
+
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/45c4f7a5-93c5-426f-91ec-b5963c083266)
+
+
+
+
 
 ## Deployment<a name="deployment"></a>
 #
