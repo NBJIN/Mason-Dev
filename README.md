@@ -203,6 +203,132 @@ First Round of Testing
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/79f83b16-e86d-4a66-afaf-e504a9982481)
 
+Point 1 to 3 in the html validator report above merged classes 
+underline and hover togeather.
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/f6a2e46b-98df-4485-ab53-bc499d383eba)
+
+Point 4 in the html validator report replaced "center" with a "div"
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/95e13aa7-4cc7-423b-aeee-fa816d63aac4)
+
+And added css styling 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e402d360-a20a-445f-95c9-76457e4f1bbd)
+
+Point 5 in the html validator report removed the empty value given to 
+'controls'.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/8c53773d-d9be-4b71-bb2f-37ec22dc3e8a)
+
+Point 6 in the html validator report removed the type attribute.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/36cb899f-07db-4283-8a2f-a86ad1646e47)
+
+Point 7, 8, 9 in the html validator report removed the comma after 
+'..gitpod.io.'.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/4ed2f623-584c-4b9d-9809-6f6c622927f5)
+
+Point 10 in the html validator report removed the empty value given 
+to controls.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/06ceeb96-83e2-4536-baff-1f95251238db)
+
+Point 11 in the html validator report added an alt attribute.  
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2f2c9265-9263-4894-a4c3-b5d9792a7c6c)
+
+Point 12 in the html validator report removed the trailing slash.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d018acef-94af-4322-a27c-555c478cf893)
+
+Point 13 in the html validator report switched around order putting
+a element first.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/1271fa60-0c14-44a4-9e91-a3c345b029fc)
+
+#### Second check through the W3C HTML Validator - Home Page
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/844b591f-6727-4cbc-9f11-9ee7c01e0747) 
+
+One Error returned in the report for home.html.  For this error
+changed the return to home button to "a href" and added css styling.
+
+##### Html Fix 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/f2c2a2e2-ffbe-4bea-80bf-ecd49fe00bf8)
+
+##### Add CSS styling 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/37e77649-1765-44eb-85fd-66a0bd749f41)
+
+#### Third check through the W3C HTML Validator - Home Page 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/18ce7bc4-271d-4976-bfe1-c302d98d2d32)
+
+#### First Check through the W3C HTML Validator - Specifications Page
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/64888815-8d03-4fd6-ad7a-7d0b90869cf7)
+
+Error 1 on HTML Validator - Removed white space on the width 
+attribute.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5e132e19-0013-472b-8512-ed44aebf4c1c)
+
+Warning 2 on HTML Validator - This warning is noted - no 
+requirement for an extra column.  
+
+Error 3 on HTML Validator - Changed the return to home
+button to an "a href" with corresponding css styling as in 
+the second check of home.html above where it shows html fix 
+and css styling. 
+
+#### Second Check through the W3C HTML Validator - Specifications Page
+1 Warning and same noted above.
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e6e3c532-ef4f-49a4-a257-1a78543e2a1b)
+
+#### First Check through the W3C HTML Validator - Contact Us Page 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/277e6636-952e-46e0-a747-69defde1ecc5)
+
+Error 1 on HTML Validator - Added empty option value 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/666320a4-2a8b-4e03-8ddd-a67d84f781f4)
+
+Error 2 on HTML Validator - Changed the return to home
+button to an "a href" with corresponding css styling as in 
+the second check of home.html above where it shows html fix 
+and css styling. 
+
+#### Second Check through the W3C HTML Validator - Contact Us Page 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/03fd898f-3367-4428-9611-1778a3f66739)
+
+Added value to option 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/426e6bd1-2ee5-4182-bc42-0521cfdb8e93)
+
+#### Third Check through the W3C HTML Validator - Contact Us Page 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/4c8f41bb-2ea9-4819-80d7-c9d57e91e791)
+
+<br>
+
+#### W3C CSS Validation 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/58be49af-4e5f-4fd9-845b-46f25fe39aa9)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/6a2843c5-af13-497b-82c0-90816df4fc61)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/24faf6a8-9bf8-4b6e-826d-64d9326c30dc)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/335e3717-2246-4a53-9f8b-e8ed3396e0ea)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/19668d86-02d9-4b3a-a41e-bbdf3a250a71)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/c4824cd2-de1c-446a-a3dd-6d1394e427ca)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/399945af-bf14-493c-9035-6e0ff3c7fbc8)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/89802cfa-e569-4075-9ba5-ff84fe7206c7)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5b78063f-0883-4f1e-bc04-f3994bf18dcc)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/71a32f8e-4403-46c9-88a3-518eb63f1b64)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/82eef0bd-4db0-4b1c-96a0-4411866e56f7)
+
+
+Error 1 (17) on the CSS Validation Report changed size to font-size
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/884321ce-d6e0-4fd1-92e1-996069deab14)
+
+Error 2 (186) refer back
+
+Error 3 (251) refer back
+
+Error 4 (342) on the CSS Validation Report again changed size to 
+font-size.  
+
+Error 5 (429) on the css validation report removed commented out code.
+
+Warnings
+(78) refer back
+(213) refer back
+
+
 
 
 
@@ -221,6 +347,8 @@ Contact Us Page
 
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/45c4f7a5-93c5-426f-91ec-b5963c083266)
+
+
 
 
 

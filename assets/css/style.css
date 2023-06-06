@@ -191,13 +191,15 @@ body {
 }
   
 /**Style Return To Home Buttom Bottom of Screen**/
-#return-home {
-  color: black;
+a.button-link {
+  display: inline-block;
+  padding: 10px 20px;
   background-color: #EAC452;
-  font: Raleway;
-  padding: 10px;
-  font-size: 20px;
-  text-decoration: none;  
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
 }
 
 /** CSS Styling For Page 2 of Website Specifications Page **/
@@ -270,13 +272,15 @@ body {
 }
 
 /**Style Return To Home Buttom Bottom of Screen**/
-#return-home {
-  color: black;
+a.button-link {
+  display: inline-block;
+  padding: 10px 20px;
   background-color: #EAC452;
-  font: Raleway;
-  padding: 10px;
-  font-size: 10px;
-  text-decoration: none;  
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
 }
 
 /**Style Copyright**/
@@ -402,6 +406,18 @@ body {
   height: 500px;
   padding-right: 60px;
   justify-content: center;
+}
+
+/**Style Return To Home Buttom Bottom of Screen**/
+a.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #EAC452;
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
 }
 
 /* -------------------------------------------------------------------------------- */
