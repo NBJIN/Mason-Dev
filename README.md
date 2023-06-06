@@ -476,6 +476,7 @@ following pages:
 
 #### Return To Home Button On Each Page 
 The return to home button on the bottom of each page will bring the user back up to the top of the page that they are currently on. 
+
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/9fe64cab-c86c-4053-a38c-aed65871f30f)
 
 #### Contact Form On The Contact Us Page 
