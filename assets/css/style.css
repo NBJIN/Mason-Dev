@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lato&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lato&display=swap');
+
 /**Main styling for 3 pages**/
 *{
   margin: 1px;
@@ -18,7 +20,7 @@ body {
   color: #EAC452;
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Raleway';
+  font-family: "Raleway", Arial, sans-serif;
   display: flex;
   flex-direction: row;
   align-content: flex-end;
@@ -34,7 +36,7 @@ body {
   background-color: #EAC452;
   padding-top: 1px;
   padding: 20px;
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   color: black;
   display: flex;
@@ -64,7 +66,7 @@ body {
 
 /**Style Home word under navigational bar **/ 
 .home {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 10px;
   padding-top: 20px;
   padding-left: 30px;
@@ -106,7 +108,7 @@ body {
 
 /** Welcome heading **/
 .main-styling h2 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 25px;
   color: white;
   text-align: justify;
@@ -119,7 +121,7 @@ body {
 
 /** styling for main-styling div **/
 .main-styling  {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   color: white;
   text-align: justify;
@@ -139,7 +141,7 @@ body {
 
 /**Style heading underneath main paragraph**/
 .footerstyling h2 {
-  font-family: raleway;
+  font-family: ral"Raleway", Arial, sans-serif;
   color: white;
   font-size: 20px;
   padding-left: 5px;
@@ -147,7 +149,7 @@ body {
 
 /**Style address details under nav bar for social media elements**/
 .footerstyling h3 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   padding-left: 30px;
   color:white;
   text-align: justify;
@@ -156,7 +158,7 @@ body {
  /**Style social media element in nav bar **/
 .footerstyling-target {
   display: flex;
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 40px;
   padding: 20px;
   padding-left: 100px;
@@ -176,7 +178,7 @@ body {
  
 /**Style copyright**/
 #copyright {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding-left: 30px;
@@ -205,7 +207,7 @@ a.button-link {
 /** CSS Styling For Page 2 of Website Specifications Page **/
 /**Style Specifications word under navigational bar**/
 .specifications {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 10px;
   padding-top: 20px;
   padding-left: 30px;
@@ -227,7 +229,7 @@ a.button-link {
 /**Style H2 heading under Nav bar**/
 .launch1 {
   display: flex;
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   justify-content: center;
   color: white;
 }
@@ -242,7 +244,7 @@ a.button-link {
 
 /**Side Heading Styling for House Type The Cherry & The Maple**/
 .house-type1 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   color: white;
   padding-left: 30px;
 }
@@ -257,7 +259,7 @@ a.button-link {
   
 /**H2 heading under images**/
 .footerstyling h2 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   color: white;
   font-size: 20px;
   padding-left: 5px;
@@ -265,7 +267,7 @@ a.button-link {
 
 /**Address Details End of Page**/
 .footerstyling h3 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   padding-left: 30px;
   color: white;
   text-align: justify;
@@ -285,7 +287,7 @@ a.button-link {
 
 /**Style Copyright**/
 #copyright {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding-left: 30px;
@@ -317,7 +319,7 @@ a.button-link {
 
 /** Heading just under nav bar **/
 .contact-us {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 10px;
   padding-top: 20px;
   padding-left: 30px;
@@ -326,7 +328,7 @@ a.button-link {
 
 /**legend containing contact us information**/
 .form-styling legend  {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 25px;
   text-align: center;
   color: white;
@@ -337,7 +339,7 @@ a.button-link {
 
 /**paragraph to arrange viewing**/
 .form-styling p {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: white;
@@ -346,7 +348,7 @@ a.button-link {
 /**Table for appointment times**/
 .table-styling, tr, th, td {
   table-layout: fixed;
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   color: white;
   border-color: white;
@@ -355,7 +357,7 @@ a.button-link {
 
  /**Project of Interest choice**/
  .property-details-style {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   color: white;
   font-size: 20px;
  }
@@ -363,7 +365,7 @@ a.button-link {
 /**Contact Information details to be submitted on Form**/
 .contact-information {
   flex-direction: row; 
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   padding-top: 20px;
   color: white;
   font-size: 20px;
@@ -391,7 +393,7 @@ a.button-link {
 #submit {
   color: black;
   background-color: #EAC452;
-  font: Raleway;
+  font: "Raleway", Arial, sans-serif;
   padding: 5px;
   font-size: 15px;
   float: left;
@@ -486,7 +488,7 @@ a.button-link {
   }
 
 .footerstyling h2 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   color: white;
   padding-left: 5px;
   font-size: 20px;
@@ -502,7 +504,7 @@ a.button-link {
   }
 
 .footerstyling h3 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   padding-left: 5px;
   color:white;
@@ -585,7 +587,7 @@ a.button-link {
 
 #property_of_interest {
   font-size: 20px;
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   }
 
  #property {
@@ -627,7 +629,7 @@ a.button-link {
 }
 
 .footerstyling h2 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   color: white;
   font-size: 20px;
   padding-left: 5px;
@@ -643,7 +645,7 @@ a.button-link {
   }
 
 .footerstyling h3 {
-  font-family: raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
   padding-left: 5px;
   color:white;

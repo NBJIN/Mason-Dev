@@ -31,8 +31,6 @@ First the name of the company, information, content and locations included for t
 
     c)  Contact Us Page
 
-    d)  Features For The Three Pages
-
 3.  [Technologies Used](#technologies-used)
 
     a)  Languages Used
@@ -68,22 +66,31 @@ First the name of the company, information, content and locations included for t
 8. [Acknowledgements](#acknowledgements)
 <br>
 
-## User Experience <a name="user-experience"></a>
+## 1 User Experience <a name="user-experience"></a>
 #
-a) Project Goals    
-project goals
--The website should give details to the user that they require in viewing a housing develpment
--the general information about the area will give user details on loaction.
-- details given about the house types and it presents an idea of the internal finishes on these properites. 
--allows the user to make contact with the company threw the form on page 3 or the contact details provided. 
+### a) Project Goals    
 
-User Stories
-- a user viewing this website will expect to be able to make contact with the company so all methods of contact are provided on the website. logos are clearly desplayed so that user makes the connection.   
-- a user to be able to view details about the general area that they wish to purashe in.  
-- a picutre of the specification and internal layouts of the properties.  
-- a user can navigate easily around the site threw the use of links at the top and thebottom of thepage and that each page loads properly.
+- The website should give details to the user that they require in viewing this housing develpment. It should
+showcase the housing development by presenting high quality images, video, information, amenities and house types.  
+- Capture interested vistors details by providing a call to action such as a form.  
+- Promote trust and credibility by providing a professional site.
+- Responsive and user friendly design and be easy to navigate 
+. 
 
-#### Color
+### b) User Stories
+- As a user i want to easily navigate the website and find information about the housing development 
+eg amenities, location, name, video and images.  
+- As a user i want to be able to make contact with the company easily either through a form or contact details
+visible on the site.  
+- As a user I want the website to load quickly and have a clean and visually apealing design so that i can 
+have a positive user experience.  
+- As a user i want to be able to view the website across different devices for example desktop, laptop and 
+mobile. 
+- As a user i want to see where the company is operating from or their business address. 
+- As a user i want to have control over the video so that i can play and stop it when i like. 
+
+
+### c) Color
 The color schemes utilised in this project are white, gold and black. These colors were chosen as they contrast each other and the white text stands out against the black background giving it 
 a sleek and professional look.  
 
@@ -101,7 +108,7 @@ Hex color code  `#EAC452`
 
 White has been used for all text in the main body and footer element on each page.  Black text is used in the navigational bar, social meida banner and return to home button as there is a better contrast with black text on a yellow background.  
 
-#### Typography 
+### d) Typography 
 The main font used for this project is Ralway.  Raleway is an elegant sans-serif typeface family.
 
 https://fonts.google.com/specimen/Raleway
@@ -110,7 +117,7 @@ Edwardian script itc has also been used for the name of the development.  This i
 
 https://en.wikipedia.org/wiki/File:Edwardian_Script.svg
 
-#### Wireframes
+### e) Wireframes
 Wireframes were completed on microsoft word for both desktop and mobile devices.  First you will see the desktop wireframes followed by mobile wireframes for each page.  
 
 - Desktop Page 1 Home Page 
@@ -141,19 +148,26 @@ Wireframes were completed on microsoft word for both desktop and mobile devices.
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/1eb5859e-0ed6-4b35-9ef6-1b85d6e5a107)
 <br>
 
-## Features<a name="features"></a>
+## 2 Features<a name="features"></a>
 #
 The website contains 3 pages.  These are as follows:
  - Home Page
  - Specifications Page
  - Contact Us Page
 
-#### Header Section
-The header section contains the logo and menu/navigational bar.  This header section is responsive across desktop, tablet and mobile devices.  The layout of the logo and menu bar stays in the same format across all three devices.  There are three links on the menu bar which are Home, Specifications and Contact Us.  When the user clicks on the appropriate link it will navigate to the selected page.  
+### a) Home Page (Index Page)
+Header Section - 
+The header section contains the logo and menu/navigational bar.  This header section is responsive across desktop, tablet and mobile devices.  The layout of the logo and menu bar stays in the same format across all three devices.  There are three links on the menu bar which are Home, Specifications and Contact Us.  When the user clicks on the appropriate link it will navigate to the selected page.  Also when the user hovers over these
+links they have a hover effect in which they will turn red.  
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d385bb8d-f475-41f5-870f-4bf0f97506a3)
 
-#### Footer Section 
+Main Body -
+The home page contains a video element and the user has full control if they wish to play, stop or expand the screen. 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/90276f49-646f-402a-b65b-d7c49a7d1b36)
+
+Footer Section - 
 The footer section contains the links to the social meida platforms for the company.  There are three social media links in total which are as follows:
  - Facebook
  - Twitter
@@ -164,17 +178,52 @@ The footer section contains the links to the social meida platforms for the comp
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/b27502fc-4b00-4f03-bc59-00d239b64715)
 
-The home page contains a video element and the user has full control if they wish to play, stop or expand the screen. 
+### b) Specifications Page 
 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/90276f49-646f-402a-b65b-d7c49a7d1b36)
+Header Section - 
+Again as per the home page the specifications page has the same layout of logo and navigationl bar in the 
+same color and which is reponsive acorss desktop, tablet and mobile.  
 
-The contact us page contains a forms in which the user can choose a viewing time for a house type and submit their details.  
+Main Body - 
+The main body of the specifications page contains a collage of photos showing the external and internal layout
+of each house type and each type have their own unique name.  
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/785b444f-6ff1-48c2-bfbf-e65317dfa9c1)
 
-# NED TO FIX THIS PAGE BEFORE PASING IT IN 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2d499e35-e1cb-4718-a404-5d4dce375d45)
+
+Footer Section -
+The footer section is as per the home page which has the same layout in relation to the logo and 
+navigational bar and is responsive across laptop, tablet and mobile.  
+
+### c) Contact Us Page 
+
+Header Section - 
+Again as per the home page the specifications page has the same layout of logo and navigationl bar in the 
+same color and which is reponsive acorss desktop, tablet and mobile.
+
+Main Body - 
+The main body of this page contains a call to action form.  Here the user can choose a viewing time, 
+property of interest and submit their name, email and message by clicking on the "Submit Your Details"
+button.  
+ ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/6a1829fa-0235-4bf0-b823-eed23c86e35e)
+
+The main body also has a google map pin-pointing where the company is located.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/3defdd87-9110-4872-86de-48f7ebf077f4)
+
+Footer Section - 
+The footer section is as per the home page which has the same layout in relation to the logo and 
+navigational bar and is responsive across laptop, tablet and mobile. 
+
 <br>
 
-## Technologies Used<a name="technologies-used"></a>
+## 3 Technologies Used<a name="technologies-used"></a>
 #
+### a) Languages Used 
+- HTML5 was used for structuring and presenting content. https://en.wikipedia.org/wiki/HTML5
+- CSS was used to style the content. https://en.wikipedia.org/wiki/CSS
+
+### b) Frameworks, Libraries and Programs Used.  
 - GitHub https://github.com/NBJIN/Mason-Dev & Gitpod https://nbjin-masondev-k0gnga04yqe.ws-eu98.gitpod.io/ for version control, safe storage and deployement. 
 - Inspector / Dev Tools was used for debugging and troubleshooting.  
 - Google Fonts was used to import fonts used in this website https://fonts.google.com/
@@ -185,9 +234,10 @@ The contact us page contains a forms in which the user can choose a viewing time
 - Font Awesome - was utilised for the image on the logo on the tope of each page and also the social media elements on the bottom of each page.  https://fontawesome.com/search?q=building%20columns&o=r
 - Google Maps - The map on page three was sourced from google maps. https://www.google.com/maps/@52.6551181,-8.6496702,14z?entry=ttu
 - Pexels for the provision of images and video for the site.  https://www.pexels.com/
+- ui.dev to show if site is responsive. https://ui.dev/amiresponsive
 <br>
 
-## Testing<a name="testing"></a>
+## 4 Testing<a name="testing"></a>
 #
 <br>
 
@@ -328,11 +378,14 @@ Warnings
 (78) refer back
 (213) refer back
 
+Second Check through CSS Validator 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/07526058-392e-494f-9c07-a867a38ea2c3)
 
 
 
 
-## Finished Product<a name="finished-product"></a>
+
+## 5 Finished Product<a name="finished-product"></a>
 #
 <br>
 Home Page 
@@ -350,12 +403,9 @@ Contact Us Page
 
 
 
-
-
-
-
-## Deployment<a name="deployment"></a>
+## 6 Deployment<a name="deployment"></a>
 #
+### a) GitHub Pages
 The site was deployed to GitHub Pages.  The steps to deploy are as follows: 
 
 - In the Github repository https://github.com/NBJIN/Mason-Dev navigate to the settings tab.
@@ -390,19 +440,25 @@ You can clone the repository by completing the following steps:
  - Click on this and you should now have a copy of the original repository in your own GitHub account.  
 <br>
 
-## Credits<a name="credits"></a>
+## 7 Credits<a name="credits"></a>
 #
+#### a) Content
 - All the content was written by the owner of this website.
+
+#### b) Media 
 - Media - All pictures and video for this project were taken from Pexels. https://www.pexels.com/
 - logo & Social Media Element  - the image was taken from fontawesome. https://fontawesome.com/search?q=building%20columns&o=r
+- Google Maps which provided the map on page three of the site.  https://www.google.com/maps/@52.6551181,-8.6496702,14z?entry=ttu
+
+#### c) Code 
 - Template and course content from Code Institute. https://learn.codeinstitute.net/dashboard
 - Extra reading material which was provide by code institute. 
 - Kevin Powell on youtube on elements such as CSS Grid and Flexbox. https://www.youtube.com/watch?v=u044iM9xsWU
-- Google Maps which provided the map on page three of the site.  https://www.google.com/maps/@52.6551181,-8.6496702,14z?entry=ttu
+
 - Google/Slack/Stackoverflow for troubleshooting and debugging.  
 <br>
 
-## Acknowledgements<a name="acknowledgements"></a>
+## 8 Acknowledgements<a name="acknowledgements"></a>
 #
 I would like to say a special word of thanks to the following for their help and guidance.  
 
