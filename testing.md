@@ -231,3 +231,4 @@ submitted.
 ### e) Known Bugs
 I had seen a 404 error appearing in relation to the favicon icon a few times durning 
 the project but it may have been a cache issue or internet connection.  
+Not getting error at deployment.  
