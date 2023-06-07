@@ -158,41 +158,35 @@ Added value to option
 #### Third Check through the W3C HTML Validator - Contact Us Page 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/4c8f41bb-2ea9-4819-80d7-c9d57e91e791)
 
+#### Fourth Check through the W3C HTML Validator - Contact Us Page 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/b61f3dcd-23a8-4786-a606-9ff1a69356df)
+
+Had made some changes to code and when i put it threw the validator got the error above in 
+realtion to the submit button on the contact us page.  
+
+Changed the form action at line circa 48 to "success.html" and method of "GET" and removed
+the "a href" from the label and input at lines circa 115 and 116 on the contact page to fix
+this issue.  
+
+#### Fifth Check through the W3C HTML Validator - Contact Us Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/cd559299-7ce8-48e6-8529-3dac468d0e3d)
+
 <br>
 
+#### First Check through the W3C HTML Validator - Success Page 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/50ff3ee8-951d-4bae-8d5d-e0d51d5a5c3a)
+
 #### W3C CSS Validation 
+First Check - The CSS Validation returned two warnings in relation to imported links from google
+fonts. See second screenshot below. 
 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/58be49af-4e5f-4fd9-845b-46f25fe39aa9)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/6a2843c5-af13-497b-82c0-90816df4fc61)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/24faf6a8-9bf8-4b6e-826d-64d9326c30dc)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/335e3717-2246-4a53-9f8b-e8ed3396e0ea)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/19668d86-02d9-4b3a-a41e-bbdf3a250a71)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/c4824cd2-de1c-446a-a3dd-6d1394e427ca)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/399945af-bf14-493c-9035-6e0ff3c7fbc8)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/89802cfa-e569-4075-9ba5-ff84fe7206c7)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5b78063f-0883-4f1e-bc04-f3994bf18dcc)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/71a32f8e-4403-46c9-88a3-518eb63f1b64)
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/82eef0bd-4db0-4b1c-96a0-4411866e56f7)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/ee5cf687-1f7e-45c8-a801-9d1da865173d)
 
 
-Error 1 (17) on the CSS Validation Report changed size to font-size
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/884321ce-d6e0-4fd1-92e1-996069deab14)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e6175c48-cba9-4874-a447-c0d7d7c7c623)
 
-Error 2 (186) refer back
-
-Error 3 (251) refer back
-
-Error 4 (342) on the CSS Validation Report again changed size to 
-font-size.  
-
-Error 5 (429) on the css validation report removed commented out code.
-
-Warnings
-(78) refer back
-(213) refer back
-
-Second Check through CSS Validator 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/07526058-392e-494f-9c07-a867a38ea2c3)
 
 ### c) Accessilility 
 Desktop
