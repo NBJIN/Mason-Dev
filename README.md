@@ -50,6 +50,8 @@ message section of the form.
 
     d)  Manual Testing
 
+    e) Known Bugs
+
 5. [Finished Product](#finished-product)
 
 6. [Deployment](#deployment)

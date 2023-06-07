@@ -227,3 +227,7 @@ The return to home button on the bottom of each page will bring the user back up
 The user can enter their details on the contact form and the user will not be able to submit the form unless a property of interest, name and email is
 submitted. 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/84d91e88-8469-45d6-b6be-b97ba65001c0)
+
+### e) Known Bugs
+I had seen a 404 error appearing in relation to the favicon icon a few times durning 
+the project but it may have been a cache issue or internet connection.  
