@@ -4,17 +4,14 @@
 ## Introduction
 #
 <p align="justify">
-Welcome to Mason Developments website. The name of the company, information, content and locations included in this project are all fictional. This project is based on a construction company called Mason Developments.  Part of the Masons business scope is the construction and sale of housing units to the public.  They are currently in the process of bringing to the market a housing development in a prime location in Dublin.   This project is based on a fictional housing development launch called Millbrook Manor in Dublin.  This website intentds to provide the vistor with an overview of the area, location and amenities that are close to the development.  It also provides visual information on internal and external layouts through a selection of images for each house type. The visitor can also make contact with the company by 
-filling out the contact form on the contact us page where they can enter their own contact details,
-the type of property they would like to view and also provide any other information requests in the 
-message section of the form. 
+Welcome to Mason Developments website. The name of the company, information, content and locations included in this project are all fictional. This project is based on a construction company called Mason Developments.  Part of the Masons business scope is the construction and sale of housing units to the public.  They are currently in the process of bringing to the market a housing development in a prime location in Dublin.   This project is based on a fictional housing development launch called Millbrook Manor in Dublin.  This website intentds to provide the vistor with an overview of the area, location and amenities that are close to the development.  It also provides visual information on internal and external layouts through a selection of images for each house type. The visitor can also make contact with the company by filling out the contact form on the contact us page where they can enter their own contact details, the type of property they would like to view and also provide any other information requests in the message section of the form. 
 </p>
 <br>
 
 
 ## Table of Contents
 #
-[1 User Experience](#user-experience)
+1. [User Experience](#user-experience)
 
     a)  Project Goals & Target Audience
 
@@ -33,6 +30,10 @@ message section of the form.
     b)  Specifications Page
 
     c)  Contact Us Page
+
+    d)  Success Page
+
+    e)  Future Features
 
 3.  [Technologies Used](#technologies-used)
 
@@ -58,6 +59,12 @@ message section of the form.
 
     a) GitHub Pages
 
+    b) Local Deployment
+
+    c) Cloning
+
+    d) Forking
+
 7. [Credits](#credits)
 
     a)  Content
@@ -68,25 +75,26 @@ message section of the form.
 
 8. [Acknowledgements](#acknowledgements)
 <br>
+<br>
+<br>
 
 ## 1 User Experience 
 #
 ### a) Project Goals  & Target Audience 
 #### Project Goals 
 - The website will give details to the user that they require in viewing this housing develpment. It will showcase the housing development by presenting high quality images, video, information, amenities and house types.  
-- Capture interested vistors details by providing a call to action such as a form.  
+- Capture interested vistors details by providing a call to action in the contact us page which is a form.  
 - Promote trust and credibility by providing a professional site.
-- Responsive and user friendly design and be easy to navigate 
+- Responsive and user friendly design that is easy to navigate.
 
 #### Target Audience 
-The website hopes the target the following visitors:
-- First-time homebuyers who are hoping to get on the property ladder or 
-families who are hoping to purchase their first family home.  
+The website hopes to target the following visitors:
+- First-time homebuyers who are hoping to get on the property ladder or families who are hoping to purchase their first family home.  
 - Families who may already own a home and are maybe looking to upgrade to a detached property.  
 - Couples where their children have moved out and are maybe looking to downsize to a semi-detached 
 property.  
 - Investors who are interested in purchasing properties for rental market.
-- Professionals who are starting on their careers.  
+- Professionals who are starting out on their careers.  
 
 ### b) User Stories
 - As a user i want to easily navigate through the website so that I can find information about the housing development eg amenities, location, name, video and images.  
@@ -99,9 +107,8 @@ can visit or contact the company.
 when it suits.   
 
 
-### c) Color
-The color schemes utilised in this project are white, gold and black.  As an extra red was chosen 
-for the hover links so make the link stand out when it is hovered over.  White, gold and balck were chosen for the main website as they contrast each other and the white text stands out against the black background giving it a sleek and professional look.  
+### c) Color Scheme
+The color schemes utilised in this project are white, gold and black.  Red was chosen for the hover links so to make the links stand out when they are hovered over.  White, gold and black were chosen for the main website as they contrast each other and the white text stands out against the black background giving it a sleek and professional look.  
 
 The main background color is black  -  this allows text to be easily readable on the page along with the logo and navigational items.  
 Hex color code `#000000`
@@ -166,19 +173,20 @@ Wireframes were completed on microsoft word for both desktop and mobile devices.
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/c1171b85-1809-46a8-a6e6-89a7d7781d03)
 <br>
+<br>
+<br>
 
 ## 2 Features<a name="features"></a>
 #
 The website contains 4 pages.  These are as follows:
- - Home Page
+ - Home Page (Index Page)
  - Specifications Page
  - Contact Us Page
  - Success Page (This page displays when the form on the contact us page is successfully submitted)
 
 ### a) Home Page (Index Page)
 Header Section - 
-The header section contains the logo and menu/navigational bar.  This header section is responsive across desktop, tablet and mobile devices.  The layout of the logo and menu bar stays in the same format across all three devices.  There are three links on the menu bar which are Home, Specifications and Contact Us.  When the user clicks on the appropriate link it will navigate to the selected page.  Also when the user hovers over these
-links they have a hover effect in which they will turn red.  
+The header section contains the logo and menu/navigational bar.  This header section is responsive across desktop, tablet and mobile devices.  The layout of the logo and menu bar stays in the same format across all three devices.  There are three links on the menu bar which are Home, Specifications and Contact Us.  When the user clicks on the appropriate link it will navigate to the selected page.  Also when the user hovers over the link it has a hover effect in which it will turn red.  
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d385bb8d-f475-41f5-870f-4bf0f97506a3)
 
@@ -188,11 +196,11 @@ The home page contains a video element and the user has full control if they wis
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/90276f49-646f-402a-b65b-d7c49a7d1b36)
 
 Footer Section - 
-The footer section contains the links to the social meida platforms for the company.  There are three social media links in total which are as follows:
+The footer section contains the links to the social meida platforms.  There are three social media links in total which are as follows:
  - Facebook
  - Twitter
  - Instagram
- When the user click on the link of choice it will navigate to that page.  
+ When the user clicks on the link of choice it will navigate to that page.  
 
  Also the footer section contains a return to home button when clicked will bring the user back to the top of the page.  The footer element is responsive across destop, tablet and mobile and it retains it format for each device.  The footer element also contains the contact details for the company and copyright information.  
 
@@ -216,11 +224,11 @@ navigational bar and is responsive across laptop, tablet and mobile.
 ### c) Contact Us Page 
 
 Header Section - 
-Again as per the home page the specifications page has the same layout of logo and navigationl bar in the  same color and which is reponsive acorss desktop, tablet and mobile.
+Again as per the home page the specifications page has the same layout of the logo and navigationl bar in the  same color and is reponsive accross desktop, tablet and mobile.
 
 Main Body - 
 The main body of this page contains a call to action form.  Here the user can choose a viewing time, 
-property of interest and submit their name, email and message by clicking on the "Submit Your Details"
+property of interest and submit their name, email and message by clicking on the "Submit"
 button.  
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d793a27b-9057-4840-9190-5dfeefad0474)
 
@@ -239,7 +247,7 @@ The header section matches the three other pages in the website with same layout
 navigational bar and is again responsive across desktop, tablet and mobile. 
 
 Main Body - 
-This section informs the vistor they are on the contact success with a message to say their 
+This section informs the vistor they are on the contact success page with a message to say their 
 equiry has been received.  
 
 
@@ -248,7 +256,14 @@ is responsive across desktop, tablet and mobile.
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d6f2aa28-e645-4bc9-ab43-822feb440f8e)
 
-
+### e) Future Features
+- Virtual Tour of the showhouses when completed by inserting a video for each house type on the
+specifications page.  
+- Interactive floor plans which would allow the user to zoom in and out.
+- Customer reviews or testimonials from purchasers in order to build trust.  
+- Updates for example house availability - wheather a property is sold, reserved or available.   
+<br>
+<br>
 <br>
 
 ## 3 Technologies Used<a name="technologies-used"></a>
@@ -270,6 +285,8 @@ is responsive across desktop, tablet and mobile.
 - Pexels for the provision of images and video for the site.  https://www.pexels.com/
 - ui.dev to show if site is responsive. https://ui.dev/amiresponsive
 <br>
+<br>
+<br>
 
 ## 4 Testing<a name="testing"></a>
 #
@@ -278,7 +295,9 @@ is responsive across desktop, tablet and mobile.
 ### Please refer to testing.md file for full breakdown of testing that was carried out.  
 
 [Testing](testing.md)
-
+<br>
+<br>
+<br>
 
 ## 5 Finished Product<a name="finished-product"></a>
 #
@@ -300,44 +319,79 @@ Contact Us Page
 Success Page 
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e3af3104-c588-4d69-b1c5-c5138106ea04)
-
-
+<br>
+<br>
+<br>
 
 ## 6 Deployment<a name="deployment"></a>
 #
 ### a) GitHub Pages
 The site was deployed to GitHub Pages.  The steps to deploy are as follows: 
 
-- In the Github repository https://github.com/NBJIN/Mason-Dev navigate to the settings tab.
-- From the source section drop-down menu, select the "Main" Branch and click on "Save"
-- The page will be automatically refreshed with a detailed ribbon display to indicate the      successfull deployment. 
+1 Log into Github
 
-### Local Deployment 
+2 Go to your repositories
+
+3 Select your required repository
+
+4 Click on settings
+
+5 Select page on the left hand menu
+
+6 Select branch to main, select folder to root and finally press save
+
+7 A link will appear within your required repository under environments after several minutes
+
+8 Website now live
+
+<br>
+
+### b) Local Deployment 
 The project can be cloned or forked to make a local copy on your own system.  
 
-#### Cloning
-You can clone the repository by completing the following steps:
-- Navigate to the GitHub Repository https://github.com/NBJIN/Mason-Dev 
-- Click on the green code button just above the list of commits
-- Select the option you prefer either HTTPS, SSH or GitHub CLI 
-- click the copy button next to the URL 
-- Open Git Bash or Terminal 
-- Change the current working directory to the one where you want the cloned directory
-- In the IDE Terminal type the following command to clone repository: 
-    git clone "name of respository"
-- Click on Enter to create the local clone.  
-- Alternatively if you are using Gitpod you can click on the open in gitpod button to create your own workspace using this respository.  
-- In order to open the project in Gitpod you will need to have the browser exentsion installed. 
-- Please click on the following link in order to follow the installation of the browser extension 
- https://www.gitpod.io/docs/configure/user-settings/browser-extension
+<br>
 
- #### Forking
+### c) Cloning
+You can clone the repository by completing the following steps:
+
+1 Navigate to the GitHub Repository https://github.com/NBJIN/Mason-Dev 
+
+2 Click on the green code button just above the list of commits
+
+3 Select the option you prefer either HTTPS, SSH or GitHub CLI 
+
+4 click the copy button next to the URL 
+
+5 Open Git Bash or Terminal 
+
+6 Change the current working directory to the one where you want the cloned directory
+
+7 In the IDE Terminal type the following command to clone repository: 
+    git clone "name of respository"
+
+8 Click on Enter to create the local clone.  
+
+9  Alternatively if you are using Gitpod you can click on the open in gitpod button to create your own workspace using this respository.  
+
+10 In order to open the project in Gitpod you will need to have the browser exentsion installed. 
+
+11 Please click on the following link in order to follow the installation of the browser extension 
+ https://www.gitpod.io/docs/configure/user-settings/browser-extension
+ <br>
+ <br>
+
+ ### d) Forking
  Forking allows the user to create a copy of the original repository and to make changes to it without affecting the orignal owners copy.  
 
  You can fork this repository by completing the folloiwng steps:
- - Log into GitHub and locate the github repository https://github.com/NBJIN/Mason-Dev 
- - At the top right of the page you will see the Fork button 
- - Click on this and you should now have a copy of the original repository in your own GitHub account.  
+
+ 1 Log into GitHub and locate the github repository https://github.com/NBJIN/Mason-Dev 
+
+ 2 At the top right of the page you will see the Fork button 
+
+ 3 Click on this and you should now have a copy of the original repository in your own GitHub account.  
+<br>
+<br>
 <br>
 
 ## 7 Credits<a name="credits"></a>
@@ -356,6 +410,12 @@ You can clone the repository by completing the following steps:
 - Kevin Powell on youtube on elements such as CSS Grid and Flexbox. https://www.youtube.com/watch?v=u044iM9xsWU
 
 - Google/Slack/Stackoverflow for troubleshooting and debugging.  
+https://www.google.ie/
+https://stackoverflow.com/
+https://slack.com/
+
+<br>
+<br>
 <br>
 
 ## 8 Acknowledgements<a name="acknowledgements"></a>
