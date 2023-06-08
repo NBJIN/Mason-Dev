@@ -193,7 +193,9 @@ fonts. See second screenshot below.
 #### Below is Accessibility Report for Each Page 
 
 #### Home Page Desktop View 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/375a7eef-f787-463f-b665-9fcaae124cbe)
+Showing No Errors 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/bc36b0ca-74a8-4c3c-9ad9-4262bae198f3)
 
 #### Specifications Page Desktop View 
 
