@@ -189,8 +189,6 @@ fonts. See second screenshot below.
 
 
 ### c) Accessibility 
-Desktop
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2c87690e-ba80-4f46-9b47-d2041209a0af)
 
 #### Below is Accessibility Report for Each Page 
 
