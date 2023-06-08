@@ -230,7 +230,7 @@ Main Body -
 The main body of this page contains a call to action form.  Here the user can choose a viewing time, 
 property of interest and submit their name, email and message by clicking on the "Submit"
 button.  
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/d793a27b-9057-4840-9190-5dfeefad0474)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/56dbf15e-5333-4bcd-a561-2925e647a81b)
 
 The main body also has a google map pin-pointing where the company is located.  
 
@@ -313,7 +313,7 @@ Specifications Page
 Contact Us Page 
 
 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/45c4f7a5-93c5-426f-91ec-b5963c083266)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e15eaab6-9528-4739-9b01-843d1bee12cc)
 
 
 Success Page 

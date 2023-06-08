@@ -19,7 +19,7 @@
  - As a user i want to view the company contact details or complete a form with my details so that I can make contact with the company should i have any queries. - Page 3 of the site the Contact Us Page provides the user with a form where they  can choose a viewing time to view a property.  They can choose wheather they want to view a detached  or semi- detached layout and they can input their name, email and foward a message.  Underneath the form there is a google map and the user can see exactly where the company is located.  The visitor also has the option to email the company directly, phone or post any queries to the details provided in the footer section.
 
  Contact Us Page - Contact Form   
- ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/94ef92bf-a6f2-4d24-a249-aeee34d804ea)
+ ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/56dbf15e-5333-4bcd-a561-2925e647a81b)
 
  Contact Us Page - Google Map and Footer section with eamil, address and phone number
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2a713f40-5475-4f7d-8e0b-8cdea80024aa)
@@ -33,7 +33,57 @@ navigate back to home, specification or contact us pages.
 - As a user I want the website to load quickly so that i can veiw a clean and visually apealing design and have a positive user experience.  Below is a list of loading times for each page and style.css 
 pages which were provided through dev tools.  
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#### Home Page Desktop View 
+
+Showing No Errors 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/bc36b0ca-74a8-4c3c-9ad9-4262bae198f3)
+
+#### Specifications Page Desktop View 
+
+Showing No Errors 
+
+Performance was originally at 47 so changed all images from 
+jpegs to webp files to bring up performance.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/82de19d1-6d95-4ac0-954a-b04b3babbad8)
+
+#### Contact Us Page 
+
+Showing No Errors 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5f243b84-f736-47fd-aefc-fdc7a395c527)
+
+#### Success Page 
+
+Showing No Errors
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/76337bfe-eef9-4577-9cb3-7ee5ecbb26ea)
+
+
+#### Home Page Mobile View 
+
+Showing No Errors 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/4b67b008-bc55-4fce-9aa3-95d3627e2491)
+
+#### Specifications Page Mobile View 
+
+Showing No Errors 
+
+Resaved images to webp to improve performance.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/cb15cba7-6fd0-4e47-b7f9-a19ec3d41b32)
+
+#### Contact Us Page Mobile View 
+
+Showing No Errors
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/96ec1aca-8ea2-4ab1-ae07-39bee6058e12)
+
+#### Sucess Page Mobile View 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5f22b096-0438-4903-b7da-382b40394499)
 
 - As a user i want the site to be responsive so that i can view the website across different devices for example desktop, laptop and mobile.  The website is reponsive across all the following devices:
     - Desktop
@@ -193,33 +243,56 @@ fonts. See second screenshot below.
 #### Below is Accessibility Report for Each Page 
 
 #### Home Page Desktop View 
+
 Showing No Errors 
 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/bc36b0ca-74a8-4c3c-9ad9-4262bae198f3)
 
 #### Specifications Page Desktop View 
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Showing No Errors 
+
+Performance was originally at 47 so changed all images from 
+jpegs to webp files to bring up performance.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/82de19d1-6d95-4ac0-954a-b04b3babbad8)
 
 #### Contact Us Page 
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Showing No Errors 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5f243b84-f736-47fd-aefc-fdc7a395c527)
 
 #### Success Page 
+
+Showing No Errors
+
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/76337bfe-eef9-4577-9cb3-7ee5ecbb26ea)
 
 
 #### Home Page Mobile View 
 
+Showing No Errors 
+
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/4b67b008-bc55-4fce-9aa3-95d3627e2491)
 
 #### Specifications Page Mobile View 
 
+Showing No Errors 
+
+Resaved images to webp to improve performance.  
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/cb15cba7-6fd0-4e47-b7f9-a19ec3d41b32)
+
 #### Contact Us Page Mobile View 
+
+Showing No Errors
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/96ec1aca-8ea2-4ab1-ae07-39bee6058e12)
 
 #### Sucess Page Mobile View 
 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/c232801d-7913-4db1-8868-ed640c9c8c5b)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/5f22b096-0438-4903-b7da-382b40394499)
 
 ### d) Manual Testing
 #### Navigation Bar On Each Page
@@ -254,7 +327,7 @@ The return to home button on the bottom of each page will bring the user back up
 
 #### Contact Form On The Contact Us Page 
 The user can enter their details on the contact form and the user will not be able to submit the form unless a property of interest, name and email is submitted. 
-![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/84d91e88-8469-45d6-b6be-b97ba65001c0)
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/73e08260-ed76-4e07-abc9-43d9e9062af5)
 
 
 
