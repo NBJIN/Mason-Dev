@@ -87,9 +87,9 @@ Showing No Errors
 
 - As a user i want the site to be responsive so that i can view the website across different devices for example desktop, laptop and mobile.  The website is reponsive across all the following devices:
     - Desktop
-    - iPad 768 x 1024
-    - Samsung Galaxy S8+ 360 x 740
-    - iphone 6/ 7 / 8 
+    - iPad 
+    - Samsung Galaxy S8+ 
+    - iphone 6/ 7 / 8
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/6393d6e3-c517-4813-af02-dc71f6883de0)
 
 - As a user i want to see where the company is operating from or their business address so that i 
@@ -398,7 +398,9 @@ The user can enter their details on the contact form and the user will not be ab
 | Instagram Icon    | Visit Instagram Page On Click | Click Instagram Icon On Footer banner | Instagram Page Opens |
 | Hover Links On Nav Bar   | Link Change Color From Black To Red | Hover Over Link In Nav Bar | Link Changes To Red On Hover |
 
-
+The website was also tested on Firefox and Microsoft Edge and there was no issues in loading the website.  
+<br>
+<br>
 
 ### e) Known Bugs
 I had seen a 404 error appearing in relation to the favicon icon a few times durning 
