@@ -188,9 +188,38 @@ fonts. See second screenshot below.
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/e6175c48-cba9-4874-a447-c0d7d7c7c623)
 
 
-### c) Accessilility 
+### c) Accessibility 
 Desktop
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/2c87690e-ba80-4f46-9b47-d2041209a0af)
+
+#### Below is Accessibility Report for Each Page 
+
+#### Home Page Desktop View 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/375a7eef-f787-463f-b665-9fcaae124cbe)
+
+#### Specifications Page Desktop View 
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+#### Contact Us Page 
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+#### Success Page 
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/76337bfe-eef9-4577-9cb3-7ee5ecbb26ea)
+
+
+#### Home Page Mobile View 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/4b67b008-bc55-4fce-9aa3-95d3627e2491)
+
+#### Specifications Page Mobile View 
+
+#### Contact Us Page Mobile View 
+
+#### Sucess Page Mobile View 
+
+![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/c232801d-7913-4db1-8868-ed640c9c8c5b)
 
 ### d) Manual Testing
 #### Navigation Bar On Each Page
@@ -224,9 +253,79 @@ The return to home button on the bottom of each page will bring the user back up
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/9fe64cab-c86c-4053-a38c-aed65871f30f)
 
 #### Contact Form On The Contact Us Page 
-The user can enter their details on the contact form and the user will not be able to submit the form unless a property of interest, name and email is
-submitted. 
+The user can enter their details on the contact form and the user will not be able to submit the form unless a property of interest, name and email is submitted. 
 ![image](https://github.com/NBJIN/Mason-Dev/assets/106515976/84d91e88-8469-45d6-b6be-b97ba65001c0)
+
+
+
+### Summary of Features Testing For Desktop and Mobile 
+<br>
+
+### Home Page
+<br>
+
+| Feature | Expect | Action | Result|
+|:--------|:-------|:-------|:------|
+| Home Link   | Visit Home Page On Click | Click Home Link On Nav Bar | Home Page Opens |
+| Specifications Link   | Visit Home Specifications Page On Click | Click Specifications Link On Nav Bar | Specifications Page Opens |
+| Contact Us Link   | Visit Contact Us Page On Click | Click Contact Us Link On Nav Bar | Contact Us Page Opens |
+| Facebook Icon    | Visit Facebook Page On Click | Click Facebook Icon On Footer Banner | Facebook Page Opens |
+| Twitter Icon    | Visit Twitter Page On Click | Click Twitter Icon On Footer banner | Twitter Page Opens |
+| Instagram Icon    | Visit Instagram Page On Click | Click Instagram Icon On Footer banner | Instagram Page Opens |
+| Return To Home Button   | Return User To Top of Page On Click | Click Return To Home Button | User Brought To Top of Page. |
+| Video   | Play Video of Housing Development | Click Play On Video | Video Starts Playing |
+| Hover Links On Nav Bar   | Link Change Color From Black To Red | Hover Over Link In Nav Bar | Link Changes To Red On Hover |
+<br>
+
+### Specifications Page
+<br>
+
+| Feature | Expect | Action | Result|
+|:--------|:-------|:-------|:------|
+| Home Link   | Visit Home Page On Click | Click Home Link On Nav Bar | Home Page Opens |
+| Specifications Link   | Visit Home Specifications Page On Click | Click Specifications Link On Nav Bar | Specifications Page Opens |
+| Contact Us Link   | Visit Contact Us Page On Click | Click Contact Us Link On Nav Bar | Contact Us Page Opens |
+| Facebook Icon    | Visit Facebook Page On Click | Click Facebook Icon On Footer Banner | Facebook Page Opens |
+| Twitter Icon    | Visit Twitter Page On Click | Click Twitter Icon On Footer banner | Twitter Page Opens |
+| Instagram Icon    | Visit Instagram Page On Click | Click Instagram Icon On Footer banner | Instagram Page Opens |
+| Return To Home Button   | Return User To Top of Page On Click | Click Return To Home Button | User Brought To Top of Page. |
+| Hover Links On Nav Bar   | Link Change Color From Black To Red | Hover Over Link In Nav Bar | Link Changes To Red On Hover |
+<br>
+
+### Contact Us Page 
+<br>
+
+| Feature | Expect | Action | Result|
+|:--------|:-------|:-------|:------|
+| Home Link   | Visit Home Page On Click | Click Home Link On Nav Bar | Home Page Opens |
+| Specifications Link   | Visit Home Specifications Page On Click | Click Specifications Link On Nav Bar | Specifications Page Opens |
+| Contact Us Link   | Visit Contact Us Page On Click | Click Contact Us Link On Nav Bar | Contact Us Page Opens |
+| Facebook Icon    | Visit Facebook Page On Click | Click Facebook Icon On Footer Banner | Facebook Page Opens |
+| Twitter Icon    | Visit Twitter Page On Click | Click Twitter Icon On Footer banner | Twitter Page Opens |
+| Instagram Icon    | Visit Instagram Page On Click | Click Instagram Icon On Footer banner | Instagram Page Opens |
+| Return To Home Button   | Return User To Top of Page On Click | Click Return To Home Button | User Brought To Top of Page. |
+| Submit Button  | Submit Details Once Required Inputs Completed | Click Submit Button | Contact Success Page Opens  |
+| Google Map  | Zoom In and Out  | Click the + or - sign | Zooms In or Zooms Out Depending on Choice |
+| Input Property of Interest  | Please Fill Out Message  | When No Content Is Entered | Message Displays Please Fill Out  |
+| Input Name  | Please Fill Out Message  | When No Content Is Entered | Message Displays Please Fill Out  |
+| Input Email  | Please Fill Out Message  | When No Content Is Entered | Message Displays Please Fill Out  |
+| Hover Links On Nav Bar   | Link Change Color From Black To Red | Hover Over Link In Nav Bar | Link Changes To Red On Hover |
+<br>
+
+### Success Page
+<br>
+
+| Feature | Expect | Action | Result|
+|:--------|:-------|:-------|:------|
+| Home Link   | Visit Home Page On Click | Click Home Link On Nav Bar | Home Page Opens |
+| Specifications Link   | Visit Home Specifications Page On Click | Click Specifications Link On Nav Bar | Specifications Page Opens |
+| Contact Us Link   | Visit Contact Us Page On Click | Click Contact Us Link On Nav Bar | Contact Us Page Opens |
+| Facebook Icon    | Visit Facebook Page On Click | Click Facebook Icon On Footer Banner | Facebook Page Opens |
+| Twitter Icon    | Visit Twitter Page On Click | Click Twitter Icon On Footer banner | Twitter Page Opens |
+| Instagram Icon    | Visit Instagram Page On Click | Click Instagram Icon On Footer banner | Instagram Page Opens |
+| Hover Links On Nav Bar   | Link Change Color From Black To Red | Hover Over Link In Nav Bar | Link Changes To Red On Hover |
+
+
 
 ### e) Known Bugs
 I had seen a 404 error appearing in relation to the favicon icon a few times durning 
